@@ -1,0 +1,24 @@
+running egg_info
+creating ../../build/joystick_sub/joystick_sub.egg-info
+writing manifest file '../../build/joystick_sub/joystick_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/joystick_sub/joystick_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build
+creating /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build/lib
+creating /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build/lib/joystick_sub
+copying joystick_sub/__init__.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build/lib/joystick_sub
+running install
+running install_lib
+creating /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub
+byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/ament_index
+creating /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/ament_index/resource_index
+creating /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/ament_index/resource_index/packages
+copying resource/joystick_sub -> /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/ament_index/resource_index/packages
+copying package.xml -> /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub
+running install_egg_info
+Copying ../../build/joystick_sub/joystick_sub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log'

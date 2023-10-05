@@ -1,0 +1,26 @@
+[5.601s] Invoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_pub': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log --single-version-externally-managed
+[7.065s] running egg_info
+[7.107s] file joystick_pub.py (for module joystick_pub) not found
+[7.108s] file inputs.py (for module inputs) not found
+[7.117s] writing manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+[7.118s] running build
+[7.118s] running build_py
+[7.120s] file joystick_pub.py (for module joystick_pub) not found
+[7.121s] file inputs.py (for module inputs) not found
+[7.122s] copying joystick_pub/inputs.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib/joystick_pub
+[7.123s] copying joystick_pub/joystick_pub.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib/joystick_pub
+[7.123s] file joystick_pub.py (for module joystick_pub) not found
+[7.124s] file inputs.py (for module inputs) not found
+[7.125s] running install
+[7.127s] running install_lib
+[7.139s] byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub/inputs.py to inputs.cpython-38.pyc
+[7.249s] byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub/joystick_pub.py to joystick_pub.cpython-38.pyc
+[7.265s] running install_data
+[7.268s] running install_egg_info
+[7.277s] removing '/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub-0.0.0-py3.8.egg-info' (and everything under it)
+[7.281s] Copying ../../build/joystick_pub/joystick_pub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub-0.0.0-py3.8.egg-info
+[7.287s] running install_scripts
+[7.417s] file joystick_pub.py (for module joystick_pub) not found
+[7.419s] file inputs.py (for module inputs) not found
+[7.420s] writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log'
+[7.542s] Invoked command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_pub' returned '0': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log --single-version-externally-managed

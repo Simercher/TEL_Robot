@@ -2,14 +2,15 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
+from sensor_msgs.msg import Joy
 
 
-class MinimalSubscriber(Node):
+class Joystick_sub(Node):
 
     def __init__(self):
-        super().__init__('minimal_subscriber')
+        super().__init__('joystick_sub')
         self.subscription = self.create_subscription(
-            String,
+            Joy,
             'joy',
             self.listener_callback,
             10)
@@ -18,22 +19,22 @@ class MinimalSubscriber(Node):
     def listener_callback(self, msg):
         for i in msg.buttons:
             if i:
-                self.get_logger().info('"%s"' % i.data)
+                self.get_logger().info('"%s"' % i)
         for i in msg.axes:
             if i:
-                self.get_logger().info('"%s"' % i.data)
+                self.get_logger().info('"%s"' % i)
 
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_subscriber = MinimalSubscriber()
+    joystick_sub = Joystick_sub()
 
-    rclpy.spin(minimal_subscriber)
+    rclpy.spin(joystick_sub)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
-    minimal_subscriber.destroy_node()
+    joystick_sub.destroy_node()
     rclpy.shutdown()
 
 

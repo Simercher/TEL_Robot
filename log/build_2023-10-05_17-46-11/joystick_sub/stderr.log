@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+    def _initialize_master_working_set():
+  File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+    f(*args, **kwargs)
+  File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+    ws = cls()
+  File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 552, in __init__
+    self.add_entry(entry)
+  File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2063, in find_on_path
+    for dist in factory(fullpath):
+  File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2121, in distributions_from_metadata
+    if len(os.listdir(path)) == 0:
+KeyboardInterrupt

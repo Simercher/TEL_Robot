@@ -1,0 +1,62 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+cachedir: /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/.pytest_cache
+rootdir: /home/aiclub/Desktop/TEL_Robot/src/joystick_sub
+plugins: ament-lint-0.9.8, ament-xmllint-0.9.8, ament-flake8-0.9.8, ament-copyright-0.9.8, launch-testing-ros-0.11.7, ament-pep257-0.9.8, launch-testing-0.10.10, colcon-core-0.14.0, cov-2.8.1
+[1mcollecting ... [0m[1m
+collecting 0 items                                                             [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [31mF[0m[36m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[36m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________________ test_copyright ________________________________[0m
+[1m[31mtest/test_copyright.py[0m:23: in test_copyright
+[1m    assert rc == 0, 'Found errors'[0m
+[1m[31mE   AssertionError: Found errors[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stderr call -----------------------------
+joystick_sub.py: could not find copyright notice
+1 errors, checked 5 files
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1m    assert rc == 0, \[0m
+[1m[31mE   AssertionError: Found 2 code style errors / warnings:[0m
+[1m[31mE     ./joystick_sub.py:26:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./joystick_sub.py:41:11: W292 no newline at end of file[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./joystick_sub.py:26:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+./joystick_sub.py:41:11: W292 no newline at end of file
+    main()          ^
+
+1     E302 expected 2 blank lines, found 1
+1     W292 no newline at end of file
+
+6 files checked
+2 errors
+
+'E'-type errors: 1
+'W'-type errors: 1
+
+Checked files:
+
+* ./joystick_sub.py
+* ./setup.py
+* ./test/test_copyright.py
+* ./test/test_flake8.py
+* ./test/test_pep257.py
+* ./joystick_sub/__init__.py
+[33m=============================== warnings summary ===============================[0m
+/usr/lib/python3/dist-packages/pydocstyle/config.py:6
+  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+- generated xml file: /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/pytest.xml -
+[31m[1m================ 2 failed, 1 passed, 1 warnings in 3.62 seconds ================[0m

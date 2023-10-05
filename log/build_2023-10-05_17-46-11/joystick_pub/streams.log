@@ -1,0 +1,27 @@
+[5.703s] Invoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_pub': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log --single-version-externally-managed
+[6.324s] Traceback (most recent call last):
+[6.324s]   File "setup.py", line 1, in <module>
+[6.324s]     from setuptools import setup
+[6.325s]   File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 16, in <module>
+[6.457s]     import setuptools.version
+[6.458s]   File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/version.py", line 1, in <module>
+[6.463s]     import pkg_resources
+[6.464s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+[6.464s]     def _initialize_master_working_set():
+[6.465s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+[6.468s]     f(*args, **kwargs)
+[6.469s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+[6.475s]     working_set = WorkingSet._build_master()
+[6.476s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+[6.476s]     ws = cls()
+[6.477s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 552, in __init__
+[6.477s]     self.add_entry(entry)
+[6.477s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+[6.478s]     for dist in find_distributions(entry, True):
+[6.479s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2059, in find_on_path
+[6.480s]     path_item_entries = _by_version_descending(filtered)
+[6.480s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2029, in _by_version_descending
+[6.481s]     return sorted(names, key=_by_version, reverse=True)
+[6.482s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/_vendor/packaging/version.py", line 84, in __eq__
+[6.615s]     return self._compare(other, lambda s, o: s == o)
+[6.616s] KeyboardInterrupt

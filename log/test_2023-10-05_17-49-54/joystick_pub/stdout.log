@@ -1,0 +1,257 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+cachedir: /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/.pytest_cache
+rootdir: /home/aiclub/Desktop/TEL_Robot/src/joystick_pub
+plugins: ament-lint-0.9.8, ament-xmllint-0.9.8, ament-flake8-0.9.8, ament-copyright-0.9.8, launch-testing-ros-0.11.7, ament-pep257-0.9.8, launch-testing-0.10.10, colcon-core-0.14.0, cov-2.8.1
+[1mcollecting ... [0m[1m
+collecting 0 items                                                             [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [31mF[0m[36m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[36m                                                    [ 66%][0m
+test/test_pep257.py [31mF[0m[36m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________________ test_copyright ________________________________[0m
+[1m[31mtest/test_copyright.py[0m:23: in test_copyright
+[1m    assert rc == 0, 'Found errors'[0m
+[1m[31mE   AssertionError: Found errors[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stderr call -----------------------------
+inputs.py: copyright=Zeth (2016), license=<unknown>
+1 errors, checked 6 files
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1m    assert rc == 0, \[0m
+[1m[31mE   AssertionError: Found 20 code style errors / warnings:[0m
+[1m[31mE     ./inputs.py:99:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./inputs.py:1768:5: F401 'Foundation.NSLog' imported but unused[0m
+[1m[31mE     ./inputs.py:1770:5: F401 'Cocoa.NSMouseEnteredMask' imported but unused[0m
+[1m[31mE     ./inputs.py:1770:5: F401 'Cocoa.NSMouseExitedMask' imported but unused[0m
+[1m[31mE     ./inputs.py:1899:5: F841 local variable 'mouse' is assigned to but never used[0m
+[1m[31mE     ./inputs.py:1910:5: F401 'Foundation.NSLog' imported but unused[0m
+[1m[31mE     ./inputs.py:1994:5: F841 local variable 'keyboard' is assigned to but never used[0m
+[1m[31mE     ./joystick_pub.py:46:17: E231 missing whitespace after ':'[0m
+[1m[31mE     ./joystick_pub.py:80:16: E231 missing whitespace after ':'[0m
+[1m[31mE     ./joystick_pub.py:114:17: E231 missing whitespace after ':'[0m
+[1m[31mE     ./joystick_pub.py:148:17: E231 missing whitespace after ':'[0m
+[1m[31mE     ./joystick_pub.py:193:17: E231 missing whitespace after ':'[0m
+[1m[31mE     ./joystick_pub.py:204:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./joystick_pub.py:236:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./joystick_pub.py:294:100: E501 line too long (101 > 99 characters)[0m
+[1m[31mE     ./joystick_pub.py:295:100: E501 line too long (127 > 99 characters)[0m
+[1m[31mE     ./joystick_pub.py:296:100: E501 line too long (168 > 99 characters)[0m
+[1m[31mE     ./joystick_pub.py:301:13: E266 too many leading '#' for block comment[0m
+[1m[31mE     ./joystick_pub.py:302:100: E501 line too long (114 > 99 characters)[0m
+[1m[31mE     ./joystick_pub.py:308:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./inputs.py:99:1: E305 expected 2 blank lines after class or function definition, found 1
+EVENT_FORMAT = str('llHHi')
+^
+
+./inputs.py:1768:5: F401 'Foundation.NSLog' imported but unused
+    from Foundation import NSObject, NSLog
+    ^
+
+./inputs.py:1770:5: F401 'Cocoa.NSMouseEnteredMask' imported but unused
+    from Cocoa import (NSEvent, NSLeftMouseDownMask,
+    ^
+
+./inputs.py:1770:5: F401 'Cocoa.NSMouseExitedMask' imported but unused
+    from Cocoa import (NSEvent, NSLeftMouseDownMask,
+    ^
+
+./inputs.py:1899:5: F841 local variable 'mouse' is assigned to but never used
+    mouse = MacMouseListener(pipe)
+    ^
+
+./inputs.py:1910:5: F401 'Foundation.NSLog' imported but unused
+    from Foundation import NSObject, NSLog
+    ^
+
+./inputs.py:1994:5: F841 local variable 'keyboard' is assigned to but never used
+    keyboard = MacKeyboardListener(pipe)
+    ^
+
+./joystick_pub.py:46:17: E231 missing whitespace after ':'
+    'BTN_THUMBR':10
+                ^
+
+./joystick_pub.py:80:16: E231 missing whitespace after ':'
+    'BTN_START':10
+               ^
+
+./joystick_pub.py:114:17: E231 missing whitespace after ':'
+    'BTN_THUMBR':10
+                ^
+
+./joystick_pub.py:148:17: E231 missing whitespace after ':'
+    'BTN_THUMBR':10
+                ^
+
+./joystick_pub.py:193:17: E231 missing whitespace after ':'
+    'BTN_THUMBR':10
+                ^
+
+./joystick_pub.py:204:1: E302 expected 2 blank lines, found 1
+class Joystick_pub(Node):
+^
+
+./joystick_pub.py:236:9: E265 block comment should start with '# '
+        #print(self.joy)
+        ^
+
+./joystick_pub.py:294:100: E501 line too long (101 > 99 characters)
+                                value_range = JOYSTICK_CODE_VALUE_MAP[event.device.name][1][key_code]
+                                                                                                   ^
+
+./joystick_pub.py:295:100: E501 line too long (127 > 99 characters)
+                                self.joy.axes[key_code] = self.normalize_key_value(value_range[0], value_range[1], event.state)
+                                                                                                   ^
+
+./joystick_pub.py:296:100: E501 line too long (168 > 99 characters)
+                                if (self.last_event is None) or (self.last_event.code != event.code) or (time.time() - self.last_publish_time > self.coalesce_interval):
+                                                                                                   ^
+
+./joystick_pub.py:301:13: E266 too many leading '#' for block comment
+            ## autorepeat
+            ^
+
+./joystick_pub.py:302:100: E501 line too long (114 > 99 characters)
+            if ((self.autorepeat_rate > 0.0) and (time.time() - self.last_publish_time > 1/self.autorepeat_rate)):
+                                                                                                   ^
+
+./joystick_pub.py:308:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+5     E231 missing whitespace after ':'
+1     E265 block comment should start with '# '
+1     E266 too many leading '#' for block comment
+2     E302 expected 2 blank lines, found 1
+1     E305 expected 2 blank lines after class or function definition, found 1
+4     E501 line too long (101 > 99 characters)
+4     F401 'Foundation.NSLog' imported but unused
+2     F841 local variable 'mouse' is assigned to but never used
+
+7 files checked
+20 errors
+
+'E'-type errors: 14
+'F'-type errors: 6
+
+Checked files:
+
+* ./inputs.py
+* ./setup.py
+* ./joystick_pub.py
+* ./test/test_copyright.py
+* ./test/test_flake8.py
+* ./test/test_pep257.py
+* ./joystick_pub/__init__.py
+[31m[1m_________________________________ test_pep257 __________________________________[0m
+[1m[31mtest/test_pep257.py[0m:23: in test_pep257
+[1m    assert rc == 0, 'Found code style errors / warnings'[0m
+[1m[31mE   AssertionError: Found code style errors / warnings[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+checking ./inputs.py
+checking ./joystick_pub.py
+checking ./joystick_pub/__init__.py
+checking ./setup.py
+checking ./test/test_copyright.py
+checking ./test/test_flake8.py
+checking ./test/test_pep257.py
+checking test/test_copyright.py
+checking test/test_flake8.py
+checking test/test_pep257.py
+----------------------------- Captured stderr call -----------------------------
+./inputs.py:1 at module level: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1260 in public class `KBDLLHookStruct`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1260 in public class `KBDLLHookStruct`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1275 in public class `MSLLHookStruct`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1275 in public class `MSLLHookStruct`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1293 in public class `XinputGamepad`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1293 in public class `XinputGamepad`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1314 in public class `XinputState`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1314 in public class `XinputState`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1330 in public class `XinputVibration`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1330 in public class `XinputVibration`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:1330 in public class `XinputVibration`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1330 in public class `XinputVibration`: D400: First line should end with a period (not 'a')
+./inputs.py:1345 in public class `PermissionDenied`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1345 in public class `PermissionDenied`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:1345 in public class `PermissionDenied`: D209: Multi-line docstring closing quotes should be on a separate line
+./inputs.py:1345 in public class `PermissionDenied`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1351 in public class `UnpluggedError`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1356 in public class `UnknownEventType`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1361 in public class `UnknownEventCode`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1366 in public class `InputEvent`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1379 in public class `BaseListener`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:1379 in public class `BaseListener`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1447 in public method `emulate_wheel`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1488 in public method `emulate_press`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1538 in public class `WindowsKeyboardListener`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1538 in public class `WindowsKeyboardListener`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:1538 in public class `WindowsKeyboardListener`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1538 in public class `WindowsKeyboardListener`: D400: First line should end with a period (not 'k')
+./inputs.py:1613 in public class `WindowsMouseListener`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1613 in public class `WindowsMouseListener`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:1613 in public class `WindowsMouseListener`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1613 in public class `WindowsMouseListener`: D400: First line should end with a period (not 'k')
+./inputs.py:1682 in public method `emulate_mouse`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1779 in private nested class `MacMouseSetup`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1781 in private method `init_with_handler`: D200: One-line docstring should fit on one line with quotes (found 3)
+./inputs.py:1797 in private method `applicationDidFinishLaunching_`: D202: No blank lines allowed after function docstring (found 1)
+./inputs.py:1808 in private nested class `MacMouseListener`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1808 in private nested class `MacMouseListener`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:1808 in private nested class `MacMouseListener`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1829 in private method `handle_input`: D202: No blank lines allowed after function docstring (found 1)
+./inputs.py:1915 in private nested class `MacKeyboardSetup`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1917 in private method `init_with_handler`: D200: One-line docstring should fit on one line with quotes (found 3)
+./inputs.py:1939 in private nested class `MacKeyboardListener`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:1939 in private nested class `MacKeyboardListener`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:1939 in private nested class `MacKeyboardListener`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:1997 in public class `InputDevice`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:2072 in private method `_get_target_function`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:2072 in private method `_get_target_function`: D209: Multi-line docstring closing quotes should be on a separate line
+./inputs.py:2072 in private method `_get_target_function`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:2072 in private method `_get_target_function`: D400: First line should end with a period (not 's')
+./inputs.py:2106 in private method `_pipe`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:2106 in private method `_pipe`: D209: Multi-line docstring closing quotes should be on a separate line
+./inputs.py:2106 in private method `_pipe`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:2106 in private method `_pipe`: D400: First line should end with a period (not 'r')
+./inputs.py:2130 in public class `Keyboard`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:2130 in public class `Keyboard`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:2151 in public class `Mouse`: D200: One-line docstring should fit on one line with quotes (found 2)
+./inputs.py:2151 in public class `Mouse`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:2175 in public class `GamePad`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:2240 in private method `__write_to_character_device`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:2240 in private method `__write_to_character_device`: D209: Multi-line docstring closing quotes should be on a separate line
+./inputs.py:2240 in private method `__write_to_character_device`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:2240 in private method `__write_to_character_device`: D400: First line should end with a period (not 's')
+./inputs.py:2256 in private method `__handle_changed_state`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:2256 in private method `__handle_changed_state`: D400: First line should end with a period (not ':')
+./inputs.py:2256 in private method `__handle_changed_state`: D403: First word of the first line should be properly capitalized ('We', not 'we')
+./inputs.py:2336 in private method `__gen_bit_values`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:2336 in private method `__gen_bit_values`: D400: First line should end with a period (not 't')
+./inputs.py:2346 in private method `__get_bit_values`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:2346 in private method `__get_bit_values`: D400: First line should end with a period (not 'r')
+./inputs.py:2416 in public method `set_vibration`: D300: Use """triple double quotes""" (found "-quotes)
+./inputs.py:2416 in public method `set_vibration`: D400: First line should end with a period (not 'y')
+./inputs.py:2432 in public class `OtherDevice`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:2432 in public class `OtherDevice`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:2432 in public class `OtherDevice`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:2432 in public class `OtherDevice`: D400: First line should end with a period (not 't')
+./inputs.py:2439 in public class `RawInputDeviceList`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:2455 in public class `DeviceManager`: D204: 1 blank line required after class docstring (found 0)
+./inputs.py:2455 in public class `DeviceManager`: D205: 1 blank line required between summary line and description (found 0)
+./inputs.py:2455 in public class `DeviceManager`: D209: Multi-line docstring closing quotes should be on a separate line
+./inputs.py:2455 in public class `DeviceManager`: D213: Multi-line docstring summary should start at the second line
+./inputs.py:2455 in public class `DeviceManager`: D400: First line should end with a period (not 't')
+./inputs.py:2593 in private method `_count_devices`: D213: Multi-line docstring summary should start at the second line
+84 errors
+- generated xml file: /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/pytest.xml -
+[31m[1m===================== 3 failed, 1 warnings in 6.95 seconds =====================[0m

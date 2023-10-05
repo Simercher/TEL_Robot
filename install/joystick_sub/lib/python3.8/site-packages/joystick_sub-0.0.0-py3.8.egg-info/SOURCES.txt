@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/joystick_sub/joystick_sub.egg-info/PKG-INFO
+../../build/joystick_sub/joystick_sub.egg-info/SOURCES.txt
+../../build/joystick_sub/joystick_sub.egg-info/dependency_links.txt
+../../build/joystick_sub/joystick_sub.egg-info/entry_points.txt
+../../build/joystick_sub/joystick_sub.egg-info/requires.txt
+../../build/joystick_sub/joystick_sub.egg-info/top_level.txt
+../../build/joystick_sub/joystick_sub.egg-info/zip-safe
+joystick_sub/__init__.py
+joystick_sub/joystick_sub.py
+resource/joystick_sub
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

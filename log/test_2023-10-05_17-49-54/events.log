@@ -1,0 +1,493 @@
+[0.000000] (-) TimerEvent: {}
+[0.002391] (joystick_pub) JobQueued: {'identifier': 'joystick_pub', 'dependencies': OrderedDict([('joystick_pub', '/home/aiclub/Desktop/TEL_Robot/install/joystick_pub')])}
+[0.002628] (joystick_sub) JobQueued: {'identifier': 'joystick_sub', 'dependencies': OrderedDict([('joystick_sub', '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub')])}
+[0.003120] (joystick_pub) JobStarted: {'identifier': 'joystick_pub'}
+[0.058324] (joystick_sub) JobStarted: {'identifier': 'joystick_sub'}
+[0.096696] (-) TimerEvent: {}
+[0.206227] (-) TimerEvent: {}
+[0.308757] (-) TimerEvent: {}
+[0.409821] (-) TimerEvent: {}
+[0.510830] (-) TimerEvent: {}
+[0.611921] (-) TimerEvent: {}
+[0.712949] (-) TimerEvent: {}
+[0.814085] (-) TimerEvent: {}
+[0.915210] (-) TimerEvent: {}
+[1.016222] (-) TimerEvent: {}
+[1.117171] (-) TimerEvent: {}
+[1.218180] (-) TimerEvent: {}
+[1.319283] (-) TimerEvent: {}
+[1.420288] (-) TimerEvent: {}
+[1.521308] (-) TimerEvent: {}
+[1.622326] (-) TimerEvent: {}
+[1.680894] (joystick_pub) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/aiclub/Desktop/TEL_Robot/src/joystick_pub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aiclub', 'LC_TIME': 'lzh_TW', 'JETSON_CUDA': '11.4.239', 'SSH_AGENT_PID': '2898', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'XDG_SESSION_TYPE': 'x11', 'JETSON_CARRIER': 'P3509-0000', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:', 'HOME': '/home/aiclub', 'OLDPWD': '/home/aiclub', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_TENSORRT': '8.4.1.5', 'JETSON_L4T': '35.1.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'LC_MONETARY': 'lzh_TW', 'MANAGERPID': '2606', 'JETSON_OPENCV_CUDA': 'YES', 'JETSON_VISIONWORKS': 'NOT_INSTALLED', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/aiclub/Desktop/TEL_Robot/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aiclub', 'JETSON_MODULE': 'P3668-0000', 'JETSON_SERIAL_NUMBER': '1420821062483', 'JETSON_CUDNN': '8.4.1.50', 'JOURNAL_STREAM': '7:51403', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'JETSON_CODENAME': 'jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aiclub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/aiclub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/aiclub-desktop:@/tmp/.ICE-unix/2933,unix/aiclub-desktop:/tmp/.ICE-unix/2933', 'INVOCATION_ID': '6c816d074a0748dcb1a707e994a76011', 'CUDA_ROOT': '/usr/local/cuda', 'JETSON_OPENCV': '4.6.0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/24f8adfa_d667_4b3c_9669_018d2396431e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW', 'JETSON_L4T_REVISION': '1.0', 'XMODIFIERS': '@im=ibus', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'GNOME_TERMINAL_SERVICE': ':1.78', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aiclub/Desktop/TEL_Robot/install/joystick_pub:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '', 'LC_MEASUREMENT': 'lzh_TW', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'lzh_TW', 'JETSON_L4T_RELEASE': '35', 'JETSON_VULKAN_INFO': '1.3.203', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/aiclub/Desktop/TEL_Robot/build/joystick_pub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'JETSON_VPI': '2.1.6', 'PYTHONPATH': '/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.0.2 GA', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/pytest.xml --junit-prefix=joystick_pub -o cache_dir=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/.pytest_cache'}, 'shell': False}
+[1.723696] (-) TimerEvent: {}
+[1.826501] (-) TimerEvent: {}
+[1.929239] (-) TimerEvent: {}
+[2.030253] (-) TimerEvent: {}
+[2.131335] (-) TimerEvent: {}
+[2.232416] (-) TimerEvent: {}
+[2.333349] (-) TimerEvent: {}
+[2.537884] (-) TimerEvent: {}
+[2.638893] (-) TimerEvent: {}
+[2.739879] (-) TimerEvent: {}
+[2.840872] (-) TimerEvent: {}
+[2.941907] (-) TimerEvent: {}
+[3.043185] (-) TimerEvent: {}
+[3.144806] (-) TimerEvent: {}
+[3.245862] (-) TimerEvent: {}
+[3.347462] (joystick_sub) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aiclub', 'LC_TIME': 'lzh_TW', 'JETSON_CUDA': '11.4.239', 'SSH_AGENT_PID': '2898', 'ROS_PACKAGE_PATH': '/opt/ros/noetic/share', 'XDG_SESSION_TYPE': 'x11', 'JETSON_CARRIER': 'P3509-0000', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/noetic/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:', 'HOME': '/home/aiclub', 'OLDPWD': '/home/aiclub', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_TENSORRT': '8.4.1.5', 'JETSON_L4T': '35.1.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'LC_MONETARY': 'lzh_TW', 'MANAGERPID': '2606', 'JETSON_OPENCV_CUDA': 'YES', 'JETSON_VISIONWORKS': 'NOT_INSTALLED', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/aiclub/Desktop/TEL_Robot/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aiclub', 'JETSON_MODULE': 'P3668-0000', 'JETSON_SERIAL_NUMBER': '1420821062483', 'JETSON_CUDNN': '8.4.1.50', 'JOURNAL_STREAM': '7:51403', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/noetic/lib/pkgconfig', 'JETSON_CODENAME': 'jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aiclub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/noetic/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/aiclub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/aiclub-desktop:@/tmp/.ICE-unix/2933,unix/aiclub-desktop:/tmp/.ICE-unix/2933', 'INVOCATION_ID': '6c816d074a0748dcb1a707e994a76011', 'CUDA_ROOT': '/usr/local/cuda', 'JETSON_OPENCV': '4.6.0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/24f8adfa_d667_4b3c_9669_018d2396431e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW', 'JETSON_L4T_REVISION': '1.0', 'XMODIFIERS': '@im=ibus', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'GNOME_TERMINAL_SERVICE': ':1.78', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '', 'LC_MEASUREMENT': 'lzh_TW', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'lzh_TW', 'JETSON_L4T_RELEASE': '35', 'JETSON_VULKAN_INFO': '1.3.203', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'JETSON_VPI': '2.1.6', 'PYTHONPATH': '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.0.2 GA', 'CMAKE_PREFIX_PATH': '/opt/ros/noetic', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/pytest.xml --junit-prefix=joystick_sub -o cache_dir=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/.pytest_cache'}, 'shell': False}
+[3.370134] (-) TimerEvent: {}
+[3.472333] (-) TimerEvent: {}
+[3.573395] (-) TimerEvent: {}
+[3.674395] (-) TimerEvent: {}
+[3.775541] (-) TimerEvent: {}
+[3.876562] (-) TimerEvent: {}
+[3.977571] (-) TimerEvent: {}
+[4.078570] (-) TimerEvent: {}
+[4.179768] (-) TimerEvent: {}
+[4.280651] (-) TimerEvent: {}
+[4.381786] (-) TimerEvent: {}
+[4.483124] (-) TimerEvent: {}
+[4.584179] (-) TimerEvent: {}
+[4.685254] (-) TimerEvent: {}
+[4.786338] (-) TimerEvent: {}
+[4.887427] (-) TimerEvent: {}
+[4.988473] (-) TimerEvent: {}
+[5.089595] (-) TimerEvent: {}
+[5.190787] (-) TimerEvent: {}
+[5.291850] (-) TimerEvent: {}
+[5.392892] (-) TimerEvent: {}
+[5.494051] (-) TimerEvent: {}
+[5.595118] (-) TimerEvent: {}
+[5.696154] (-) TimerEvent: {}
+[5.797262] (-) TimerEvent: {}
+[5.898410] (-) TimerEvent: {}
+[5.999800] (-) TimerEvent: {}
+[6.100766] (-) TimerEvent: {}
+[6.201924] (-) TimerEvent: {}
+[6.303153] (-) TimerEvent: {}
+[6.404296] (-) TimerEvent: {}
+[6.505428] (-) TimerEvent: {}
+[6.606556] (-) TimerEvent: {}
+[6.707722] (-) TimerEvent: {}
+[6.808843] (-) TimerEvent: {}
+[6.910000] (-) TimerEvent: {}
+[7.011195] (-) TimerEvent: {}
+[7.112293] (-) TimerEvent: {}
+[7.214145] (-) TimerEvent: {}
+[7.315262] (-) TimerEvent: {}
+[7.416517] (-) TimerEvent: {}
+[7.517669] (-) TimerEvent: {}
+[7.618641] (-) TimerEvent: {}
+[7.719928] (-) TimerEvent: {}
+[7.821038] (-) TimerEvent: {}
+[7.922513] (-) TimerEvent: {}
+[8.023991] (-) TimerEvent: {}
+[8.125656] (-) TimerEvent: {}
+[8.226920] (-) TimerEvent: {}
+[8.328206] (-) TimerEvent: {}
+[8.429313] (-) TimerEvent: {}
+[8.530215] (-) TimerEvent: {}
+[8.620731] (joystick_sub) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[8.621839] (joystick_sub) StdoutLine: {'line': b'platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0\n'}
+[8.622849] (joystick_pub) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[8.624436] (joystick_pub) StdoutLine: {'line': b'platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0\n'}
+[8.631980] (-) TimerEvent: {}
+[8.650212] (joystick_sub) StdoutLine: {'line': b'cachedir: /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/.pytest_cache\n'}
+[8.651176] (joystick_sub) StdoutLine: {'line': b'rootdir: /home/aiclub/Desktop/TEL_Robot/src/joystick_sub\n'}
+[8.651736] (joystick_sub) StdoutLine: {'line': b'plugins: ament-lint-0.9.8, ament-xmllint-0.9.8, ament-flake8-0.9.8, ament-copyright-0.9.8, launch-testing-ros-0.11.7, ament-pep257-0.9.8, launch-testing-0.10.10, colcon-core-0.14.0, cov-2.8.1\n'}
+[8.658604] (joystick_pub) StdoutLine: {'line': b'cachedir: /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/.pytest_cache\n'}
+[8.659879] (joystick_pub) StdoutLine: {'line': b'rootdir: /home/aiclub/Desktop/TEL_Robot/src/joystick_pub\n'}
+[8.660394] (joystick_pub) StdoutLine: {'line': b'plugins: ament-lint-0.9.8, ament-xmllint-0.9.8, ament-flake8-0.9.8, ament-copyright-0.9.8, launch-testing-ros-0.11.7, ament-pep257-0.9.8, launch-testing-0.10.10, colcon-core-0.14.0, cov-2.8.1\n'}
+[8.733169] (-) TimerEvent: {}
+[8.834377] (-) TimerEvent: {}
+[8.935684] (-) TimerEvent: {}
+[9.039507] (-) TimerEvent: {}
+[9.140482] (-) TimerEvent: {}
+[9.241923] (-) TimerEvent: {}
+[9.343094] (-) TimerEvent: {}
+[9.444787] (-) TimerEvent: {}
+[9.546523] (-) TimerEvent: {}
+[9.647759] (-) TimerEvent: {}
+[9.748639] (-) TimerEvent: {}
+[9.849788] (-) TimerEvent: {}
+[9.892885] (joystick_pub) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[9.893659] (joystick_sub) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[9.910349] (joystick_sub) StdoutLine: {'line': b'collecting 0 items                                                             \x1b[0m\x1b[1m\n'}
+[9.911388] (joystick_sub) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[9.911852] (joystick_pub) StdoutLine: {'line': b'collecting 0 items                                                             \x1b[0m\x1b[1m\n'}
+[9.912378] (joystick_pub) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[9.949954] (-) TimerEvent: {}
+[10.051387] (-) TimerEvent: {}
+[10.052991] (joystick_sub) StdoutLine: {'line': b'\n'}
+[10.054105] (joystick_pub) StdoutLine: {'line': b'\n'}
+[10.151593] (-) TimerEvent: {}
+[10.252702] (-) TimerEvent: {}
+[10.353733] (-) TimerEvent: {}
+[10.454869] (-) TimerEvent: {}
+[10.556026] (-) TimerEvent: {}
+[10.657653] (-) TimerEvent: {}
+[10.719472] (joystick_sub) StdoutLine: {'line': b'test/test_copyright.py \x1b[31mF\x1b[0m\x1b[36m                                                 [ 33%]\x1b[0m\n'}
+[10.733878] (joystick_pub) StdoutLine: {'line': b'test/test_copyright.py \x1b[31mF\x1b[0m\x1b[36m                                                 [ 33%]\x1b[0m\n'}
+[10.757987] (-) TimerEvent: {}
+[10.859084] (-) TimerEvent: {}
+[10.960181] (-) TimerEvent: {}
+[11.061115] (-) TimerEvent: {}
+[11.162261] (-) TimerEvent: {}
+[11.263546] (-) TimerEvent: {}
+[11.364663] (-) TimerEvent: {}
+[11.465839] (-) TimerEvent: {}
+[11.567140] (-) TimerEvent: {}
+[11.668286] (-) TimerEvent: {}
+[11.778538] (-) TimerEvent: {}
+[11.915808] (-) TimerEvent: {}
+[11.996906] (joystick_sub) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[36m                                                    [ 66%]\x1b[0m\n'}
+[12.016047] (-) TimerEvent: {}
+[12.116978] (-) TimerEvent: {}
+[12.218050] (-) TimerEvent: {}
+[12.236530] (joystick_sub) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[36m                                                    [100%]\x1b[0m\n'}
+[12.238951] (joystick_sub) StdoutLine: {'line': b'\n'}
+[12.240819] (joystick_sub) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[12.242191] (joystick_sub) StdoutLine: {'line': b'\x1b[31m\x1b[1m________________________________ test_copyright ________________________________\x1b[0m\n'}
+[12.242921] (joystick_sub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_copyright.py\x1b[0m:23: in test_copyright\n'}
+[12.243770] (joystick_sub) StdoutLine: {'line': b"\x1b[1m    assert rc == 0, 'Found errors'\x1b[0m\n"}
+[12.245693] (joystick_sub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found errors\x1b[0m\n'}
+[12.246283] (joystick_sub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[12.248802] (joystick_sub) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[12.249733] (joystick_sub) StdoutLine: {'line': b'joystick_sub.py: could not find copyright notice\n'}
+[12.250227] (joystick_sub) StdoutLine: {'line': b'1 errors, checked 5 files\n'}
+[12.251715] (joystick_sub) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[12.252299] (joystick_sub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[12.252848] (joystick_sub) StdoutLine: {'line': b'\x1b[1m    assert rc == 0, \\\x1b[0m\n'}
+[12.253398] (joystick_sub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 2 code style errors / warnings:\x1b[0m\n'}
+[12.253942] (joystick_sub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./joystick_sub.py:26:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[12.254558] (joystick_sub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./joystick_sub.py:41:11: W292 no newline at end of file\x1b[0m\n'}
+[12.255209] (joystick_sub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[12.255715] (joystick_sub) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[12.256243] (joystick_sub) StdoutLine: {'line': b'\n'}
+[12.256708] (joystick_sub) StdoutLine: {'line': b'./joystick_sub.py:26:1: E302 expected 2 blank lines, found 1\n'}
+[12.257236] (joystick_sub) StdoutLine: {'line': b'def main(args=None):\n'}
+[12.257742] (joystick_sub) StdoutLine: {'line': b'^\n'}
+[12.258277] (joystick_sub) StdoutLine: {'line': b'\n'}
+[12.258871] (joystick_sub) StdoutLine: {'line': b'./joystick_sub.py:41:11: W292 no newline at end of file\n'}
+[12.259514] (joystick_sub) StdoutLine: {'line': b'    main()          ^\n'}
+[12.260048] (joystick_sub) StdoutLine: {'line': b'\n'}
+[12.260588] (joystick_sub) StdoutLine: {'line': b'1     E302 expected 2 blank lines, found 1\n'}
+[12.261092] (joystick_sub) StdoutLine: {'line': b'1     W292 no newline at end of file\n'}
+[12.261643] (joystick_sub) StdoutLine: {'line': b'\n'}
+[12.262147] (joystick_sub) StdoutLine: {'line': b'6 files checked\n'}
+[12.262746] (joystick_sub) StdoutLine: {'line': b'2 errors\n'}
+[12.263296] (joystick_sub) StdoutLine: {'line': b'\n'}
+[12.263832] (joystick_sub) StdoutLine: {'line': b"'E'-type errors: 1\n"}
+[12.265542] (joystick_sub) StdoutLine: {'line': b"'W'-type errors: 1\n"}
+[12.266088] (joystick_sub) StdoutLine: {'line': b'\n'}
+[12.266637] (joystick_sub) StdoutLine: {'line': b'Checked files:\n'}
+[12.267303] (joystick_sub) StdoutLine: {'line': b'\n'}
+[12.267811] (joystick_sub) StdoutLine: {'line': b'* ./joystick_sub.py\n'}
+[12.268317] (joystick_sub) StdoutLine: {'line': b'* ./setup.py\n'}
+[12.268839] (joystick_sub) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[12.269414] (joystick_sub) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[12.269991] (joystick_sub) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[12.270480] (joystick_sub) StdoutLine: {'line': b'* ./joystick_sub/__init__.py\n'}
+[12.271398] (joystick_sub) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[12.272076] (joystick_sub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pydocstyle/config.py:6\n'}
+[12.272648] (joystick_sub) StderrLine: {'line': b"  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working\n"}
+[12.273224] (joystick_sub) StderrLine: {'line': b'\n'}
+[12.273752] (joystick_sub) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/latest/warnings.html\n'}
+[12.274302] (joystick_sub) StdoutLine: {'line': b'- generated xml file: /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/pytest.xml -\n'}
+[12.274930] (joystick_sub) StdoutLine: {'line': b'\x1b[31m\x1b[1m================ 2 failed, 1 passed, 1 warnings in 3.62 seconds ================\x1b[0m\n'}
+[12.318351] (-) TimerEvent: {}
+[12.423781] (-) TimerEvent: {}
+[12.524901] (-) TimerEvent: {}
+[12.608886] (joystick_sub) CommandEnded: {'returncode': 1}
+[12.611797] (joystick_sub) TestFailure: {'identifier': 'joystick_sub'}
+[12.612083] (joystick_sub) JobEnded: {'identifier': 'joystick_sub', 'rc': 0}
+[12.625158] (-) TimerEvent: {}
+[12.729020] (-) TimerEvent: {}
+[12.830088] (-) TimerEvent: {}
+[12.931149] (-) TimerEvent: {}
+[13.032453] (-) TimerEvent: {}
+[13.133605] (-) TimerEvent: {}
+[13.234640] (-) TimerEvent: {}
+[13.335688] (-) TimerEvent: {}
+[13.436738] (-) TimerEvent: {}
+[13.537786] (-) TimerEvent: {}
+[13.638947] (-) TimerEvent: {}
+[13.739938] (-) TimerEvent: {}
+[13.841067] (-) TimerEvent: {}
+[13.942207] (-) TimerEvent: {}
+[14.043498] (-) TimerEvent: {}
+[14.144727] (-) TimerEvent: {}
+[14.245801] (-) TimerEvent: {}
+[14.346859] (-) TimerEvent: {}
+[14.388581] (joystick_pub) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[36m                                                    [ 66%]\x1b[0m\n'}
+[14.447126] (-) TimerEvent: {}
+[14.548139] (-) TimerEvent: {}
+[14.649322] (-) TimerEvent: {}
+[14.750355] (-) TimerEvent: {}
+[14.851472] (-) TimerEvent: {}
+[14.953298] (-) TimerEvent: {}
+[15.054379] (-) TimerEvent: {}
+[15.155821] (-) TimerEvent: {}
+[15.256898] (-) TimerEvent: {}
+[15.357966] (-) TimerEvent: {}
+[15.459286] (-) TimerEvent: {}
+[15.553844] (joystick_pub) StdoutLine: {'line': b'test/test_pep257.py \x1b[31mF\x1b[0m\x1b[36m                                                    [100%]\x1b[0m\n'}
+[15.556572] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.558985] (joystick_pub) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[15.559857] (-) TimerEvent: {}
+[15.567534] (joystick_pub) StdoutLine: {'line': b'\x1b[31m\x1b[1m________________________________ test_copyright ________________________________\x1b[0m\n'}
+[15.569840] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_copyright.py\x1b[0m:23: in test_copyright\n'}
+[15.570890] (joystick_pub) StdoutLine: {'line': b"\x1b[1m    assert rc == 0, 'Found errors'\x1b[0m\n"}
+[15.571554] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found errors\x1b[0m\n'}
+[15.571998] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[15.572500] (joystick_pub) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[15.572994] (joystick_pub) StdoutLine: {'line': b'inputs.py: copyright=Zeth (2016), license=<unknown>\n'}
+[15.573436] (joystick_pub) StdoutLine: {'line': b'1 errors, checked 6 files\n'}
+[15.573891] (joystick_pub) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[15.574370] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[15.574904] (joystick_pub) StdoutLine: {'line': b'\x1b[1m    assert rc == 0, \\\x1b[0m\n'}
+[15.575379] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 20 code style errors / warnings:\x1b[0m\n'}
+[15.575829] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./inputs.py:99:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[15.576278] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./inputs.py:1768:5: F401 'Foundation.NSLog' imported but unused\x1b[0m\n"}
+[15.576723] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./inputs.py:1770:5: F401 'Cocoa.NSMouseEnteredMask' imported but unused\x1b[0m\n"}
+[15.577170] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./inputs.py:1770:5: F401 'Cocoa.NSMouseExitedMask' imported but unused\x1b[0m\n"}
+[15.577641] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./inputs.py:1899:5: F841 local variable 'mouse' is assigned to but never used\x1b[0m\n"}
+[15.579214] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./inputs.py:1910:5: F401 'Foundation.NSLog' imported but unused\x1b[0m\n"}
+[15.579764] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./inputs.py:1994:5: F841 local variable 'keyboard' is assigned to but never used\x1b[0m\n"}
+[15.580252] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./joystick_pub.py:46:17: E231 missing whitespace after ':'\x1b[0m\n"}
+[15.580729] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./joystick_pub.py:80:16: E231 missing whitespace after ':'\x1b[0m\n"}
+[15.581199] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./joystick_pub.py:114:17: E231 missing whitespace after ':'\x1b[0m\n"}
+[15.581653] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./joystick_pub.py:148:17: E231 missing whitespace after ':'\x1b[0m\n"}
+[15.582162] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./joystick_pub.py:193:17: E231 missing whitespace after ':'\x1b[0m\n"}
+[15.582654] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./joystick_pub.py:204:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[15.583331] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./joystick_pub.py:236:9: E265 block comment should start with '# '\x1b[0m\n"}
+[15.583802] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./joystick_pub.py:294:100: E501 line too long (101 > 99 characters)\x1b[0m\n'}
+[15.584318] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./joystick_pub.py:295:100: E501 line too long (127 > 99 characters)\x1b[0m\n'}
+[15.584797] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./joystick_pub.py:296:100: E501 line too long (168 > 99 characters)\x1b[0m\n'}
+[15.585281] (joystick_pub) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./joystick_pub.py:301:13: E266 too many leading '#' for block comment\x1b[0m\n"}
+[15.585706] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./joystick_pub.py:302:100: E501 line too long (114 > 99 characters)\x1b[0m\n'}
+[15.586130] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./joystick_pub.py:308:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[15.586543] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[15.587237] (joystick_pub) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[15.587677] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.588102] (joystick_pub) StdoutLine: {'line': b'./inputs.py:99:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[15.588527] (joystick_pub) StdoutLine: {'line': b"EVENT_FORMAT = str('llHHi')\n"}
+[15.588938] (joystick_pub) StdoutLine: {'line': b'^\n'}
+[15.589392] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.589835] (joystick_pub) StdoutLine: {'line': b"./inputs.py:1768:5: F401 'Foundation.NSLog' imported but unused\n"}
+[15.590284] (joystick_pub) StdoutLine: {'line': b'    from Foundation import NSObject, NSLog\n'}
+[15.590793] (joystick_pub) StdoutLine: {'line': b'    ^\n'}
+[15.591306] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.591742] (joystick_pub) StdoutLine: {'line': b"./inputs.py:1770:5: F401 'Cocoa.NSMouseEnteredMask' imported but unused\n"}
+[15.592194] (joystick_pub) StdoutLine: {'line': b'    from Cocoa import (NSEvent, NSLeftMouseDownMask,\n'}
+[15.592673] (joystick_pub) StdoutLine: {'line': b'    ^\n'}
+[15.593093] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.593502] (joystick_pub) StdoutLine: {'line': b"./inputs.py:1770:5: F401 'Cocoa.NSMouseExitedMask' imported but unused\n"}
+[15.593906] (joystick_pub) StdoutLine: {'line': b'    from Cocoa import (NSEvent, NSLeftMouseDownMask,\n'}
+[15.594369] (joystick_pub) StdoutLine: {'line': b'    ^\n'}
+[15.594868] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.595305] (joystick_pub) StdoutLine: {'line': b"./inputs.py:1899:5: F841 local variable 'mouse' is assigned to but never used\n"}
+[15.595851] (joystick_pub) StdoutLine: {'line': b'    mouse = MacMouseListener(pipe)\n'}
+[15.596283] (joystick_pub) StdoutLine: {'line': b'    ^\n'}
+[15.597884] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.598433] (joystick_pub) StdoutLine: {'line': b"./inputs.py:1910:5: F401 'Foundation.NSLog' imported but unused\n"}
+[15.599034] (joystick_pub) StdoutLine: {'line': b'    from Foundation import NSObject, NSLog\n'}
+[15.599502] (joystick_pub) StdoutLine: {'line': b'    ^\n'}
+[15.599963] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.600386] (joystick_pub) StdoutLine: {'line': b"./inputs.py:1994:5: F841 local variable 'keyboard' is assigned to but never used\n"}
+[15.600838] (joystick_pub) StdoutLine: {'line': b'    keyboard = MacKeyboardListener(pipe)\n'}
+[15.601281] (joystick_pub) StdoutLine: {'line': b'    ^\n'}
+[15.601708] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.602147] (joystick_pub) StdoutLine: {'line': b"./joystick_pub.py:46:17: E231 missing whitespace after ':'\n"}
+[15.602565] (joystick_pub) StdoutLine: {'line': b"    'BTN_THUMBR':10\n"}
+[15.603109] (joystick_pub) StdoutLine: {'line': b'                ^\n'}
+[15.603533] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.603960] (joystick_pub) StdoutLine: {'line': b"./joystick_pub.py:80:16: E231 missing whitespace after ':'\n"}
+[15.604454] (joystick_pub) StdoutLine: {'line': b"    'BTN_START':10\n"}
+[15.604860] (joystick_pub) StdoutLine: {'line': b'               ^\n'}
+[15.605282] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.605693] (joystick_pub) StdoutLine: {'line': b"./joystick_pub.py:114:17: E231 missing whitespace after ':'\n"}
+[15.606141] (joystick_pub) StdoutLine: {'line': b"    'BTN_THUMBR':10\n"}
+[15.606579] (joystick_pub) StdoutLine: {'line': b'                ^\n'}
+[15.607086] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.607548] (joystick_pub) StdoutLine: {'line': b"./joystick_pub.py:148:17: E231 missing whitespace after ':'\n"}
+[15.607973] (joystick_pub) StdoutLine: {'line': b"    'BTN_THUMBR':10\n"}
+[15.608428] (joystick_pub) StdoutLine: {'line': b'                ^\n'}
+[15.608895] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.609347] (joystick_pub) StdoutLine: {'line': b"./joystick_pub.py:193:17: E231 missing whitespace after ':'\n"}
+[15.609800] (joystick_pub) StdoutLine: {'line': b"    'BTN_THUMBR':10\n"}
+[15.610247] (joystick_pub) StdoutLine: {'line': b'                ^\n'}
+[15.610754] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.611236] (joystick_pub) StdoutLine: {'line': b'./joystick_pub.py:204:1: E302 expected 2 blank lines, found 1\n'}
+[15.611687] (joystick_pub) StdoutLine: {'line': b'class Joystick_pub(Node):\n'}
+[15.612101] (joystick_pub) StdoutLine: {'line': b'^\n'}
+[15.612546] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.612959] (joystick_pub) StdoutLine: {'line': b"./joystick_pub.py:236:9: E265 block comment should start with '# '\n"}
+[15.613395] (joystick_pub) StdoutLine: {'line': b'        #print(self.joy)\n'}
+[15.613832] (joystick_pub) StdoutLine: {'line': b'        ^\n'}
+[15.614263] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.614815] (joystick_pub) StdoutLine: {'line': b'./joystick_pub.py:294:100: E501 line too long (101 > 99 characters)\n'}
+[15.615289] (joystick_pub) StdoutLine: {'line': b'                                value_range = JOYSTICK_CODE_VALUE_MAP[event.device.name][1][key_code]\n'}
+[15.615741] (joystick_pub) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[15.616158] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.616615] (joystick_pub) StdoutLine: {'line': b'./joystick_pub.py:295:100: E501 line too long (127 > 99 characters)\n'}
+[15.617043] (joystick_pub) StdoutLine: {'line': b'                                self.joy.axes[key_code] = self.normalize_key_value(value_range[0], value_range[1], event.state)\n'}
+[15.617458] (joystick_pub) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[15.617912] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.618367] (joystick_pub) StdoutLine: {'line': b'./joystick_pub.py:296:100: E501 line too long (168 > 99 characters)\n'}
+[15.620038] (joystick_pub) StdoutLine: {'line': b'                                if (self.last_event is None) or (self.last_event.code != event.code) or (time.time() - self.last_publish_time > self.coalesce_interval):\n'}
+[15.620587] (joystick_pub) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[15.621117] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.621551] (joystick_pub) StdoutLine: {'line': b"./joystick_pub.py:301:13: E266 too many leading '#' for block comment\n"}
+[15.622054] (joystick_pub) StdoutLine: {'line': b'            ## autorepeat\n'}
+[15.622522] (joystick_pub) StdoutLine: {'line': b'            ^\n'}
+[15.623133] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.623568] (joystick_pub) StdoutLine: {'line': b'./joystick_pub.py:302:100: E501 line too long (114 > 99 characters)\n'}
+[15.624010] (joystick_pub) StdoutLine: {'line': b'            if ((self.autorepeat_rate > 0.0) and (time.time() - self.last_publish_time > 1/self.autorepeat_rate)):\n'}
+[15.624503] (joystick_pub) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[15.625028] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.625498] (joystick_pub) StdoutLine: {'line': b'./joystick_pub.py:308:1: E302 expected 2 blank lines, found 1\n'}
+[15.625938] (joystick_pub) StdoutLine: {'line': b'def main(args=None):\n'}
+[15.626380] (joystick_pub) StdoutLine: {'line': b'^\n'}
+[15.626879] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.627352] (joystick_pub) StdoutLine: {'line': b"5     E231 missing whitespace after ':'\n"}
+[15.627809] (joystick_pub) StdoutLine: {'line': b"1     E265 block comment should start with '# '\n"}
+[15.628270] (joystick_pub) StdoutLine: {'line': b"1     E266 too many leading '#' for block comment\n"}
+[15.628719] (joystick_pub) StdoutLine: {'line': b'2     E302 expected 2 blank lines, found 1\n'}
+[15.629148] (joystick_pub) StdoutLine: {'line': b'1     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[15.629591] (joystick_pub) StdoutLine: {'line': b'4     E501 line too long (101 > 99 characters)\n'}
+[15.630054] (joystick_pub) StdoutLine: {'line': b"4     F401 'Foundation.NSLog' imported but unused\n"}
+[15.630510] (joystick_pub) StdoutLine: {'line': b"2     F841 local variable 'mouse' is assigned to but never used\n"}
+[15.631049] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.631496] (joystick_pub) StdoutLine: {'line': b'7 files checked\n'}
+[15.631948] (joystick_pub) StdoutLine: {'line': b'20 errors\n'}
+[15.632390] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.632831] (joystick_pub) StdoutLine: {'line': b"'E'-type errors: 14\n"}
+[15.633279] (joystick_pub) StdoutLine: {'line': b"'F'-type errors: 6\n"}
+[15.633720] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.634144] (joystick_pub) StdoutLine: {'line': b'Checked files:\n'}
+[15.634598] (joystick_pub) StdoutLine: {'line': b'\n'}
+[15.635146] (joystick_pub) StdoutLine: {'line': b'* ./inputs.py\n'}
+[15.635599] (joystick_pub) StdoutLine: {'line': b'* ./setup.py\n'}
+[15.636055] (joystick_pub) StdoutLine: {'line': b'* ./joystick_pub.py\n'}
+[15.636489] (joystick_pub) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[15.636936] (joystick_pub) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[15.637384] (joystick_pub) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[15.637840] (joystick_pub) StdoutLine: {'line': b'* ./joystick_pub/__init__.py\n'}
+[15.638315] (joystick_pub) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_pep257 __________________________________\x1b[0m\n'}
+[15.638827] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_pep257.py\x1b[0m:23: in test_pep257\n'}
+[15.639288] (joystick_pub) StdoutLine: {'line': b"\x1b[1m    assert rc == 0, 'Found code style errors / warnings'\x1b[0m\n"}
+[15.639740] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found code style errors / warnings\x1b[0m\n'}
+[15.640195] (joystick_pub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[15.640625] (joystick_pub) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[15.642197] (joystick_pub) StdoutLine: {'line': b'checking ./inputs.py\n'}
+[15.642757] (joystick_pub) StdoutLine: {'line': b'checking ./joystick_pub.py\n'}
+[15.643254] (joystick_pub) StdoutLine: {'line': b'checking ./joystick_pub/__init__.py\n'}
+[15.643730] (joystick_pub) StdoutLine: {'line': b'checking ./setup.py\n'}
+[15.644217] (joystick_pub) StdoutLine: {'line': b'checking ./test/test_copyright.py\n'}
+[15.644669] (joystick_pub) StdoutLine: {'line': b'checking ./test/test_flake8.py\n'}
+[15.645137] (joystick_pub) StdoutLine: {'line': b'checking ./test/test_pep257.py\n'}
+[15.645572] (joystick_pub) StdoutLine: {'line': b'checking test/test_copyright.py\n'}
+[15.645981] (joystick_pub) StdoutLine: {'line': b'checking test/test_flake8.py\n'}
+[15.646419] (joystick_pub) StdoutLine: {'line': b'checking test/test_pep257.py\n'}
+[15.646915] (joystick_pub) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[15.647450] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1 at module level: D213: Multi-line docstring summary should start at the second line\n'}
+[15.647862] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1260 in public class `KBDLLHookStruct`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.648268] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1260 in public class `KBDLLHookStruct`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.648796] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1275 in public class `MSLLHookStruct`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.649202] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1275 in public class `MSLLHookStruct`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.649636] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1293 in public class `XinputGamepad`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.650037] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1293 in public class `XinputGamepad`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.650445] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1314 in public class `XinputState`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.650949] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1314 in public class `XinputState`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.651389] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1330 in public class `XinputVibration`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.651799] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1330 in public class `XinputVibration`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.652203] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1330 in public class `XinputVibration`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.652615] (joystick_pub) StdoutLine: {'line': b"./inputs.py:1330 in public class `XinputVibration`: D400: First line should end with a period (not 'a')\n"}
+[15.653019] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1345 in public class `PermissionDenied`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.653427] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1345 in public class `PermissionDenied`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.653870] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1345 in public class `PermissionDenied`: D209: Multi-line docstring closing quotes should be on a separate line\n'}
+[15.654323] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1345 in public class `PermissionDenied`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.654824] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1351 in public class `UnpluggedError`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.655306] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1356 in public class `UnknownEventType`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.655746] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1361 in public class `UnknownEventCode`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.656190] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1366 in public class `InputEvent`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.656612] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1379 in public class `BaseListener`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.657061] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1379 in public class `BaseListener`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.657462] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1447 in public method `emulate_wheel`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.657892] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1488 in public method `emulate_press`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.658365] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1538 in public class `WindowsKeyboardListener`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.658837] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1538 in public class `WindowsKeyboardListener`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.659270] (joystick_pub) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[15.659795] (joystick_pub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pydocstyle/config.py:6\n'}
+[15.660212] (-) TimerEvent: {}
+[15.660692] (joystick_pub) StderrLine: {'line': b"  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working\n"}
+[15.661150] (joystick_pub) StderrLine: {'line': b'\n'}
+[15.661559] (joystick_pub) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/latest/warnings.html\n'}
+[15.661962] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1538 in public class `WindowsKeyboardListener`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.662440] (joystick_pub) StdoutLine: {'line': b"./inputs.py:1538 in public class `WindowsKeyboardListener`: D400: First line should end with a period (not 'k')\n"}
+[15.662982] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1613 in public class `WindowsMouseListener`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.664681] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1613 in public class `WindowsMouseListener`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.665270] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1613 in public class `WindowsMouseListener`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.665747] (joystick_pub) StdoutLine: {'line': b"./inputs.py:1613 in public class `WindowsMouseListener`: D400: First line should end with a period (not 'k')\n"}
+[15.666159] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1682 in public method `emulate_mouse`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.666632] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1779 in private nested class `MacMouseSetup`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.667199] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1781 in private method `init_with_handler`: D200: One-line docstring should fit on one line with quotes (found 3)\n'}
+[15.667638] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1797 in private method `applicationDidFinishLaunching_`: D202: No blank lines allowed after function docstring (found 1)\n'}
+[15.668107] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1808 in private nested class `MacMouseListener`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.668582] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1808 in private nested class `MacMouseListener`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.669022] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1808 in private nested class `MacMouseListener`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.669461] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1829 in private method `handle_input`: D202: No blank lines allowed after function docstring (found 1)\n'}
+[15.669919] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1915 in private nested class `MacKeyboardSetup`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.670341] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1917 in private method `init_with_handler`: D200: One-line docstring should fit on one line with quotes (found 3)\n'}
+[15.670878] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1939 in private nested class `MacKeyboardListener`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.671434] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1939 in private nested class `MacKeyboardListener`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.671872] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1939 in private nested class `MacKeyboardListener`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.672318] (joystick_pub) StdoutLine: {'line': b'./inputs.py:1997 in public class `InputDevice`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.672761] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2072 in private method `_get_target_function`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.673160] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2072 in private method `_get_target_function`: D209: Multi-line docstring closing quotes should be on a separate line\n'}
+[15.673572] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2072 in private method `_get_target_function`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.673994] (joystick_pub) StdoutLine: {'line': b"./inputs.py:2072 in private method `_get_target_function`: D400: First line should end with a period (not 's')\n"}
+[15.674400] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2106 in private method `_pipe`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.674902] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2106 in private method `_pipe`: D209: Multi-line docstring closing quotes should be on a separate line\n'}
+[15.675336] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2106 in private method `_pipe`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.675734] (joystick_pub) StdoutLine: {'line': b"./inputs.py:2106 in private method `_pipe`: D400: First line should end with a period (not 'r')\n"}
+[15.676187] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2130 in public class `Keyboard`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.676587] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2130 in public class `Keyboard`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.676993] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2151 in public class `Mouse`: D200: One-line docstring should fit on one line with quotes (found 2)\n'}
+[15.677406] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2151 in public class `Mouse`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.677813] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2175 in public class `GamePad`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.678225] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2240 in private method `__write_to_character_device`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.678629] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2240 in private method `__write_to_character_device`: D209: Multi-line docstring closing quotes should be on a separate line\n'}
+[15.679165] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2240 in private method `__write_to_character_device`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.679610] (joystick_pub) StdoutLine: {'line': b"./inputs.py:2240 in private method `__write_to_character_device`: D400: First line should end with a period (not 's')\n"}
+[15.680039] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2256 in private method `__handle_changed_state`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.680442] (joystick_pub) StdoutLine: {'line': b"./inputs.py:2256 in private method `__handle_changed_state`: D400: First line should end with a period (not ':')\n"}
+[15.680842] (joystick_pub) StdoutLine: {'line': b"./inputs.py:2256 in private method `__handle_changed_state`: D403: First word of the first line should be properly capitalized ('We', not 'we')\n"}
+[15.681314] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2336 in private method `__gen_bit_values`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.681773] (joystick_pub) StdoutLine: {'line': b"./inputs.py:2336 in private method `__gen_bit_values`: D400: First line should end with a period (not 't')\n"}
+[15.682199] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2346 in private method `__get_bit_values`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.682610] (joystick_pub) StdoutLine: {'line': b"./inputs.py:2346 in private method `__get_bit_values`: D400: First line should end with a period (not 'r')\n"}
+[15.683243] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2416 in public method `set_vibration`: D300: Use """triple double quotes""" (found "-quotes)\n'}
+[15.683662] (joystick_pub) StdoutLine: {'line': b"./inputs.py:2416 in public method `set_vibration`: D400: First line should end with a period (not 'y')\n"}
+[15.684075] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2432 in public class `OtherDevice`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.684485] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2432 in public class `OtherDevice`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.684941] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2432 in public class `OtherDevice`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.685401] (joystick_pub) StdoutLine: {'line': b"./inputs.py:2432 in public class `OtherDevice`: D400: First line should end with a period (not 't')\n"}
+[15.685798] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2439 in public class `RawInputDeviceList`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.686197] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2455 in public class `DeviceManager`: D204: 1 blank line required after class docstring (found 0)\n'}
+[15.686614] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2455 in public class `DeviceManager`: D205: 1 blank line required between summary line and description (found 0)\n'}
+[15.687114] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2455 in public class `DeviceManager`: D209: Multi-line docstring closing quotes should be on a separate line\n'}
+[15.687558] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2455 in public class `DeviceManager`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.687974] (joystick_pub) StdoutLine: {'line': b"./inputs.py:2455 in public class `DeviceManager`: D400: First line should end with a period (not 't')\n"}
+[15.688379] (joystick_pub) StdoutLine: {'line': b'./inputs.py:2593 in private method `_count_devices`: D213: Multi-line docstring summary should start at the second line\n'}
+[15.688812] (joystick_pub) StdoutLine: {'line': b'84 errors\n'}
+[15.689200] (joystick_pub) StdoutLine: {'line': b'- generated xml file: /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/pytest.xml -\n'}
+[15.689624] (joystick_pub) StdoutLine: {'line': b'\x1b[31m\x1b[1m===================== 3 failed, 1 warnings in 6.95 seconds =====================\x1b[0m\n'}
+[15.760605] (-) TimerEvent: {}
+[15.861792] (-) TimerEvent: {}
+[15.919666] (joystick_pub) CommandEnded: {'returncode': 1}
+[15.924433] (joystick_pub) TestFailure: {'identifier': 'joystick_pub'}
+[15.925114] (joystick_pub) JobEnded: {'identifier': 'joystick_pub', 'rc': 0}
+[15.929298] (-) EventReactorShutdown: {}

@@ -6,6 +6,10 @@ setup(
     name=package_name,
     version='0.0.0',
     packages=[package_name],
+    # py_modules=[
+    #     'joystick_pub',
+    #     'inputs'
+    # ],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -20,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'joystick_pub = TEL_Robot.joystick_pub:main',
+            'joystick_pub = joystick_pub.joystick_pub:main',
         ],
     },
 )

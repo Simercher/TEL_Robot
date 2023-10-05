@@ -1,0 +1,26 @@
+[5.600s] Invoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_sub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log --single-version-externally-managed
+[6.259s] Traceback (most recent call last):
+[6.259s]   File "setup.py", line 1, in <module>
+[6.260s]     from setuptools import setup
+[6.260s]   File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 16, in <module>
+[6.396s]     import setuptools.version
+[6.399s]   File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/version.py", line 1, in <module>
+[6.399s]     import pkg_resources
+[6.400s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3243, in <module>
+[6.403s]     def _initialize_master_working_set():
+[6.404s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3226, in _call_aside
+[6.404s]     f(*args, **kwargs)
+[6.405s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 3255, in _initialize_master_working_set
+[6.407s]     working_set = WorkingSet._build_master()
+[6.408s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 559, in _build_master
+[6.409s]     ws = cls()
+[6.409s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 552, in __init__
+[6.410s]     self.add_entry(entry)
+[6.411s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 608, in add_entry
+[6.412s]     for dist in find_distributions(entry, True):
+[6.412s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2063, in find_on_path
+[6.416s]     for dist in factory(fullpath):
+[6.417s]   File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2121, in distributions_from_metadata
+[6.418s]     if len(os.listdir(path)) == 0:
+[6.418s] KeyboardInterrupt
+[6.460s] Invoked command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub' returned '-2': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_sub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log --single-version-externally-managed

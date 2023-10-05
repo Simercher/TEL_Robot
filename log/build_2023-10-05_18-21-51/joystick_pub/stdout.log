@@ -1,0 +1,16 @@
+running egg_info
+writing manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying joystick_pub/inputs.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib/joystick_pub
+copying joystick_pub/joystick_pub.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib/joystick_pub
+running install
+running install_lib
+byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub/inputs.py to inputs.cpython-38.pyc
+byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub/joystick_pub.py to joystick_pub.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/joystick_pub/joystick_pub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log'

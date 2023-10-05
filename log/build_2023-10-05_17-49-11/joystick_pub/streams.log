@@ -1,0 +1,20 @@
+[5.624s] Invoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_pub': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log --single-version-externally-managed
+[7.128s] running egg_info
+[7.161s] file joystick_ros2.py (for module joystick_ros2) not found
+[7.170s] writing manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+[7.171s] file joystick_ros2.py (for module joystick_ros2) not found
+[7.172s] running build
+[7.173s] running build_py
+[7.174s] copying inputs.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib
+[7.292s] file joystick_ros2.py (for module joystick_ros2) not found
+[7.292s] running install
+[7.296s] running install_lib
+[7.304s] byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/inputs.py to inputs.cpython-38.pyc
+[7.383s] running install_data
+[7.387s] running install_egg_info
+[7.392s] removing '/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub-0.0.0-py3.8.egg-info' (and everything under it)
+[7.395s] Copying ../../build/joystick_pub/joystick_pub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub-0.0.0-py3.8.egg-info
+[7.400s] running install_scripts
+[7.501s] file joystick_ros2.py (for module joystick_ros2) not found
+[7.503s] writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log'
+[7.601s] Invoked command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_pub' returned '0': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log --single-version-externally-managed

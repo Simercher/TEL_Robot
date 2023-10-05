@@ -9,6 +9,8 @@ setup.py
 ../../build/joystick_pub/joystick_pub.egg-info/top_level.txt
 ../../build/joystick_pub/joystick_pub.egg-info/zip-safe
 joystick_pub/__init__.py
+joystick_pub/inputs.py
+joystick_pub/joystick_pub.py
 resource/joystick_pub
 test/test_copyright.py
 test/test_flake8.py

@@ -1,0 +1,64 @@
+[3.305s] Invoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/pytest.xml --junit-prefix=joystick_sub -o cache_dir=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/.pytest_cache /usr/bin/python3 -m pytest
+[8.561s] [1m============================= test session starts ==============================[0m
+[8.562s] platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+[8.590s] cachedir: /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/.pytest_cache
+[8.591s] rootdir: /home/aiclub/Desktop/TEL_Robot/src/joystick_sub
+[8.592s] plugins: ament-lint-0.9.8, ament-xmllint-0.9.8, ament-flake8-0.9.8, ament-copyright-0.9.8, launch-testing-ros-0.11.7, ament-pep257-0.9.8, launch-testing-0.10.10, colcon-core-0.14.0, cov-2.8.1
+[9.833s] [1mcollecting ... [0m[1m
+[9.851s] collecting 0 items                                                             [0m[1m
+[9.851s] collected 3 items                                                              [0m
+[9.993s] 
+[10.660s] test/test_copyright.py [31mF[0m[36m                                                 [ 33%][0m
+[11.937s] test/test_flake8.py [31mF[0m[36m                                                    [ 66%][0m
+[12.177s] test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+[12.179s] 
+[12.181s] =================================== FAILURES ===================================
+[12.182s] [31m[1m________________________________ test_copyright ________________________________[0m
+[12.183s] [1m[31mtest/test_copyright.py[0m:23: in test_copyright
+[12.185s] [1m    assert rc == 0, 'Found errors'[0m
+[12.186s] [1m[31mE   AssertionError: Found errors[0m
+[12.186s] [1m[31mE   assert 1 == 0[0m
+[12.189s] ----------------------------- Captured stderr call -----------------------------
+[12.189s] joystick_sub.py: could not find copyright notice
+[12.191s] 1 errors, checked 5 files
+[12.192s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[12.192s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[12.193s] [1m    assert rc == 0, \[0m
+[12.193s] [1m[31mE   AssertionError: Found 2 code style errors / warnings:[0m
+[12.194s] [1m[31mE     ./joystick_sub.py:26:1: E302 expected 2 blank lines, found 1[0m
+[12.194s] [1m[31mE     ./joystick_sub.py:41:11: W292 no newline at end of file[0m
+[12.195s] [1m[31mE   assert 1 == 0[0m
+[12.196s] ----------------------------- Captured stdout call -----------------------------
+[12.196s] 
+[12.196s] ./joystick_sub.py:26:1: E302 expected 2 blank lines, found 1
+[12.197s] def main(args=None):
+[12.198s] ^
+[12.198s] 
+[12.199s] ./joystick_sub.py:41:11: W292 no newline at end of file
+[12.199s]     main()          ^
+[12.200s] 
+[12.200s] 1     E302 expected 2 blank lines, found 1
+[12.201s] 1     W292 no newline at end of file
+[12.201s] 
+[12.202s] 6 files checked
+[12.203s] 2 errors
+[12.203s] 
+[12.205s] 'E'-type errors: 1
+[12.205s] 'W'-type errors: 1
+[12.206s] 
+[12.207s] Checked files:
+[12.207s] 
+[12.208s] * ./joystick_sub.py
+[12.208s] * ./setup.py
+[12.209s] * ./test/test_copyright.py
+[12.209s] * ./test/test_flake8.py
+[12.210s] * ./test/test_pep257.py
+[12.211s] * ./joystick_sub/__init__.py
+[12.211s] [33m=============================== warnings summary ===============================[0m
+[12.212s] /usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[12.212s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[12.213s] 
+[12.214s] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[12.214s] - generated xml file: /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/pytest.xml -
+[12.215s] [31m[1m================ 2 failed, 1 passed, 1 warnings in 3.62 seconds ================[0m
+[12.550s] Invoked command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub' returned '1': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/pytest.xml --junit-prefix=joystick_sub -o cache_dir=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/.pytest_cache /usr/bin/python3 -m pytest

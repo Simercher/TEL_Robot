@@ -1,0 +1,26 @@
+[8.263s] Invoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_sub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log --single-version-externally-managed
+[9.824s] running egg_info
+[9.826s] creating ../../build/joystick_sub/joystick_sub.egg-info
+[9.848s] writing manifest file '../../build/joystick_sub/joystick_sub.egg-info/SOURCES.txt'
+[9.861s] writing manifest file '../../build/joystick_sub/joystick_sub.egg-info/SOURCES.txt'
+[9.864s] running build
+[9.865s] running build_py
+[9.866s] creating /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build
+[9.866s] creating /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build/lib
+[9.867s] creating /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build/lib/joystick_sub
+[9.869s] copying joystick_sub/__init__.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build/lib/joystick_sub
+[9.870s] running install
+[9.872s] running install_lib
+[9.873s] creating /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub
+[9.877s] byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub/__init__.py to __init__.cpython-38.pyc
+[9.878s] running install_data
+[9.881s] creating /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/ament_index
+[9.882s] creating /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/ament_index/resource_index
+[9.883s] creating /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/ament_index/resource_index/packages
+[9.883s] copying resource/joystick_sub -> /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/ament_index/resource_index/packages
+[9.884s] copying package.xml -> /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub
+[9.885s] running install_egg_info
+[9.894s] Copying ../../build/joystick_sub/joystick_sub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub-0.0.0-py3.8.egg-info
+[9.899s] running install_scripts
+[10.003s] writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log'
+[10.132s] Invoked command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub' returned '0': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_sub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log --single-version-externally-managed
