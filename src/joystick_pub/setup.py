@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'joystick_pub = TEL_Robot.joystick_pub:main',
         ],
     },
 )
