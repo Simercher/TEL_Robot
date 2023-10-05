@@ -1,0 +1,26 @@
+/home/aiclub/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../build/joystick_pub/joystick_pub.egg-info
+writing manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+writing manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build
+creating /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib
+creating /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib/joystick_pub
+copying joystick_pub/__init__.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib/joystick_pub
+running install
+running install_lib
+creating /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub
+byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/share/ament_index
+creating /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/share/ament_index/resource_index
+creating /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/share/ament_index/resource_index/packages
+copying resource/joystick_pub -> /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/share/ament_index/resource_index/packages
+copying package.xml -> /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/share/joystick_pub
+running install_egg_info
+Copying ../../build/joystick_pub/joystick_pub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log'

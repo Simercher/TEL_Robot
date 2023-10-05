@@ -1,0 +1,28 @@
+[4.069s] Invoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_pub': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log --install-scripts $base/lib/joystick_pub --single-version-externally-managed
+[5.405s] /home/aiclub/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.405s]   warnings.warn(
+[5.534s] running egg_info
+[5.536s] creating ../../build/joystick_pub/joystick_pub.egg-info
+[5.558s] writing manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+[5.569s] writing manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+[5.570s] running build
+[5.571s] running build_py
+[5.573s] creating /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build
+[5.575s] creating /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib
+[5.576s] creating /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib/joystick_pub
+[5.577s] copying joystick_pub/__init__.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build/lib/joystick_pub
+[5.577s] running install
+[5.581s] running install_lib
+[5.586s] creating /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub
+[5.589s] byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub/__init__.py to __init__.cpython-38.pyc
+[5.590s] running install_data
+[5.594s] creating /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/share/ament_index
+[5.595s] creating /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/share/ament_index/resource_index
+[5.596s] creating /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/share/ament_index/resource_index/packages
+[5.597s] copying resource/joystick_pub -> /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/share/ament_index/resource_index/packages
+[5.597s] copying package.xml -> /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/share/joystick_pub
+[5.598s] running install_egg_info
+[5.604s] Copying ../../build/joystick_pub/joystick_pub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub-0.0.0-py3.8.egg-info
+[5.610s] running install_scripts
+[5.712s] writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log'
+[5.854s] Invoked command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_pub' returned '0': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log --install-scripts $base/lib/joystick_pub --single-version-externally-managed
