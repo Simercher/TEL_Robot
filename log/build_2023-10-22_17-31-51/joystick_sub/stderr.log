@@ -1,0 +1,5 @@
+  File "/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub/joystick_sub.py", line 97
+    else control_matrix_data[i] < -1:
+         ^
+SyntaxError: invalid syntax
+

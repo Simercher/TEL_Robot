@@ -1,0 +1,16 @@
+[5.414s] Invoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_sub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log --single-version-externally-managed
+[6.703s] running egg_info
+[6.738s] writing manifest file '../../build/joystick_sub/joystick_sub.egg-info/SOURCES.txt'
+[6.738s] running build
+[6.739s] running build_py
+[6.739s] copying joystick_sub/joystick_sub.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build/lib/joystick_sub
+[6.740s] running install
+[6.744s] running install_lib
+[6.749s] byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub/joystick_sub.py to joystick_sub.cpython-38.pyc
+[6.753s] running install_data
+[6.757s] running install_egg_info
+[6.763s] removing '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub-0.0.0-py3.8.egg-info' (and everything under it)
+[6.764s] Copying ../../build/joystick_sub/joystick_sub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub-0.0.0-py3.8.egg-info
+[6.770s] running install_scripts
+[6.873s] writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log'
+[6.969s] Invoked command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub' returned '0': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_sub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log --single-version-externally-managed

@@ -1,0 +1,21 @@
+[5.341s] Invoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_sub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log --single-version-externally-managed
+[6.600s] running egg_info
+[6.639s] writing manifest file '../../build/joystick_sub/joystick_sub.egg-info/SOURCES.txt'
+[6.640s] running build
+[6.640s] running build_py
+[6.641s] copying joystick_sub/joystick_sub.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build/lib/joystick_sub
+[6.641s] running install
+[6.645s] running install_lib
+[6.651s] byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub/joystick_sub.py to joystick_sub.cpython-38.pyc
+[6.653s]   File "/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub/joystick_sub.py", line 97
+[6.654s]     else control_matrix_data[i] < -1:
+[6.654s]          ^
+[6.654s] running install_data
+[6.655s] SyntaxError: invalid syntax
+[6.655s] 
+[6.656s] running install_egg_info
+[6.664s] removing '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub-0.0.0-py3.8.egg-info' (and everything under it)
+[6.666s] Copying ../../build/joystick_sub/joystick_sub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub-0.0.0-py3.8.egg-info
+[6.671s] running install_scripts
+[6.762s] writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log'
+[6.873s] Invoked command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub' returned '0': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_sub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log --single-version-externally-managed
