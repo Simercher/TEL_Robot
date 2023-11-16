@@ -97,6 +97,7 @@ class Joystick_sub(Node):
             elif control_matrix_data[i] < -1:
                 control_matrix_data[i] /= -control_matrix_data[i]
             control_matrix_data[i] = control_matrix_data[i] * 255.0
+            
         # print(control_matrix_data)
         return control_matrix_data
 

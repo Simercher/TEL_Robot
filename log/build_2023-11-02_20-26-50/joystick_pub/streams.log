@@ -1,0 +1,14 @@
+[14.340s] Invoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_pub': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log --single-version-externally-managed
+[15.824s] running egg_info
+[16.183s] writing manifest file '../../build/joystick_pub/joystick_pub.egg-info/SOURCES.txt'
+[16.184s] running build
+[16.184s] running build_py
+[16.193s] running install
+[16.196s] running install_lib
+[16.205s] running install_data
+[16.209s] running install_egg_info
+[16.216s] removing '/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub-0.0.0-py3.8.egg-info' (and everything under it)
+[16.219s] Copying ../../build/joystick_pub/joystick_pub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages/joystick_pub-0.0.0-py3.8.egg-info
+[16.226s] running install_scripts
+[16.458s] writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log'
+[17.506s] Invoked command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_pub' returned '0': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_pub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_pub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_pub/install.log --single-version-externally-managed
