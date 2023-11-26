@@ -1,0 +1,5 @@
+  File "/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub/gyrosensor.py", line 35
+    print(self.i+=1)
+                ^
+SyntaxError: invalid syntax
+

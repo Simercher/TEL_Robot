@@ -9,6 +9,7 @@ setup.py
 ../../build/joystick_sub/joystick_sub.egg-info/top_level.txt
 ../../build/joystick_sub/joystick_sub.egg-info/zip-safe
 joystick_sub/__init__.py
+joystick_sub/gyrosensor.py
 joystick_sub/joystick_sub.py
 resource/joystick_sub
 test/test_copyright.py

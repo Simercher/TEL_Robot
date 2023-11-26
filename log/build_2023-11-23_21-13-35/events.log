@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.001578] (-) JobUnselected: {'identifier': 'joystick_pub'}
+[0.003940] (-) JobUnselected: {'identifier': 'witmotion_ros'}
+[0.004583] (joystick_sub) JobQueued: {'identifier': 'joystick_sub', 'dependencies': OrderedDict()}
+[0.004876] (joystick_sub) JobStarted: {'identifier': 'joystick_sub'}
+[0.098913] (-) TimerEvent: {}
+[0.200450] (-) TimerEvent: {}
+[0.301532] (-) TimerEvent: {}
+[0.402595] (-) TimerEvent: {}
+[0.507159] (-) TimerEvent: {}
+[0.611588] (-) TimerEvent: {}
+[0.712990] (-) TimerEvent: {}
+[0.815695] (-) TimerEvent: {}
+[0.919023] (-) TimerEvent: {}
+[1.021201] (-) TimerEvent: {}
+[1.123575] (-) TimerEvent: {}
+[1.225560] (-) TimerEvent: {}
+[1.330111] (-) TimerEvent: {}
+[1.432872] (-) TimerEvent: {}
+[1.534935] (-) TimerEvent: {}
+[1.635757] (-) TimerEvent: {}
+[1.736607] (-) TimerEvent: {}
+[1.837448] (-) TimerEvent: {}
+[1.938347] (-) TimerEvent: {}
+[2.039488] (-) TimerEvent: {}
+[2.140429] (-) TimerEvent: {}
+[2.241502] (-) TimerEvent: {}
+[2.342853] (-) TimerEvent: {}
+[2.445001] (-) TimerEvent: {}
+[2.545899] (-) TimerEvent: {}
+[2.647534] (-) TimerEvent: {}
+[2.748602] (-) TimerEvent: {}
+[2.850119] (-) TimerEvent: {}
+[2.952972] (-) TimerEvent: {}
+[3.054922] (-) TimerEvent: {}
+[3.157336] (-) TimerEvent: {}
+[3.258446] (-) TimerEvent: {}
+[3.412133] (-) TimerEvent: {}
+[3.515963] (-) TimerEvent: {}
+[3.617556] (-) TimerEvent: {}
+[3.719603] (-) TimerEvent: {}
+[3.821039] (-) TimerEvent: {}
+[3.922661] (-) TimerEvent: {}
+[4.024192] (-) TimerEvent: {}
+[4.126125] (-) TimerEvent: {}
+[4.226932] (-) TimerEvent: {}
+[4.327715] (-) TimerEvent: {}
+[4.428577] (-) TimerEvent: {}
+[4.529449] (-) TimerEvent: {}
+[4.630309] (-) TimerEvent: {}
+[4.732284] (-) TimerEvent: {}
+[4.833134] (-) TimerEvent: {}
+[4.934122] (-) TimerEvent: {}
+[5.035485] (-) TimerEvent: {}
+[5.136352] (-) TimerEvent: {}
+[5.237207] (-) TimerEvent: {}
+[5.338026] (-) TimerEvent: {}
+[5.438885] (-) TimerEvent: {}
+[5.539731] (-) TimerEvent: {}
+[5.640698] (-) TimerEvent: {}
+[5.741552] (-) TimerEvent: {}
+[5.842474] (-) TimerEvent: {}
+[5.943672] (-) TimerEvent: {}
+[6.031752] (joystick_sub) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.8/selectors.py", line 468, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "setup.py", line 5, in <module>\n    setup(\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 153, in setup\n    return distutils.core.setup(**attrs)\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 134, in setup\n    ok = dist.parse_command_line()\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 481, in parse_command_line\n    if self.handle_display_options(option_order):\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/dist.py", line 1120, in handle_display_options\n    return _Distribution.handle_display_options(self, option_order)\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 684, in handle_display_options\n    self.print_commands()\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/dist.py", line 896, in print_commands\n    cmdclass = ep.resolve()\n  File "/home/aiclub/.local/lib/python3.8/site-packages/pkg_resources/__init__.py", line 2456, in resolve\n    module = __import__(self.module_name, fromlist=[\'__name__\'], level=0)\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/command/develop.py", line 9, in <module>\n    from setuptools.command.easy_install import easy_install\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py", line 52, in <module>\n    from setuptools.package_index import (\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/package_index.py", line 29, in <module>\n    from setuptools.wheel import Wheel\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/wheel.py", line 17, in <module>\n    from setuptools.command.egg_info import write_requirements\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 21, in <module>\n    from setuptools.command.sdist import sdist\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/command/sdist.py", line 2, in <module>\n    import distutils.command.sdist as orig\n  File "/home/aiclub/.local/lib/python3.8/site-packages/setuptools/_distutils/command/sdist.py", line 14, in <module>\n    from distutils.text_file import TextFile\n  File "<frozen importlib._bootstrap>", line 991, in _find_and_load\n  File "<frozen importlib._bootstrap>", line 971, in _find_and_load_unlocked\n  File "<frozen importlib._bootstrap>", line 914, in _find_spec\n  File "<frozen importlib._bootstrap_external>", line 1407, in find_spec\n  File "<frozen importlib._bootstrap_external>", line 1379, in _get_spec\n  File "<frozen importlib._bootstrap_external>", line 1537, in find_spec\nKeyboardInterrupt\n\n'}
+[6.035878] (joystick_sub) JobEnded: {'identifier': 'joystick_sub', 'rc': 'SIGINT'}
+[6.044021] (-) EventReactorShutdown: {}

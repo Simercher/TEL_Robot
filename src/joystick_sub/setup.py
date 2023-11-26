@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'joystick_sub = joystick_sub.joystick_sub:main',
+            'gyrosensor = joystick_sub.gyrosensor:main',
         ],
     },
 )

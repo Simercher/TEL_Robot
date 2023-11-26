@@ -1,0 +1,111 @@
+[10.952s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'wjoystick_sub'][0m
+[10.953s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb038cbe0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['wjoystick_sub'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb038cbe0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb039b160>)[0m
+[11.422s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[11.423s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[11.423s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[11.423s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[11.423s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[11.424s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[11.424s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/aiclub/Desktop/TEL_Robot'
+[11.425s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.425s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[11.425s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[11.426s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[11.426s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[11.426s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[11.427s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[11.427s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[11.427s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[11.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[11.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[11.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[11.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[11.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[11.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[11.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[11.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[11.484s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[11.485s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.485s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[11.485s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[11.486s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.486s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[11.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[11.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[11.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[11.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[11.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[11.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[11.488s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[11.489s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[11.489s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[11.489s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[11.489s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[11.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[11.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extensions ['ignore', 'ignore_ament_install']
+[11.490s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extension 'ignore'
+[11.491s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extension 'ignore_ament_install'
+[11.491s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extensions ['colcon_pkg']
+[11.491s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extension 'colcon_pkg'
+[11.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extensions ['colcon_meta']
+[11.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extension 'colcon_meta'
+[11.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extensions ['ros']
+[11.492s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extension 'ros'
+[11.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/joystick_pub' with type 'ros.ament_python' and name 'joystick_pub'[0m
+[11.505s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extensions ['ignore', 'ignore_ament_install']
+[11.505s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extension 'ignore'
+[11.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extension 'ignore_ament_install'
+[11.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extensions ['colcon_pkg']
+[11.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extension 'colcon_pkg'
+[11.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extensions ['colcon_meta']
+[11.507s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extension 'colcon_meta'
+[11.507s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extensions ['ros']
+[11.507s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extension 'ros'
+[11.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/joystick_sub' with type 'ros.ament_python' and name 'joystick_sub'[0m
+[11.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extensions ['ignore', 'ignore_ament_install']
+[11.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extension 'ignore'
+[11.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extension 'ignore_ament_install'
+[11.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extensions ['colcon_pkg']
+[11.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extension 'colcon_pkg'
+[11.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extensions ['colcon_meta']
+[11.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extension 'colcon_meta'
+[11.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extensions ['ros']
+[11.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extension 'ros'
+[11.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/witmotion_ros' with type 'ros.ament_cmake' and name 'witmotion_ros'[0m
+[11.516s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[11.516s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[11.517s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[11.517s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[11.517s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[11.723s] [34mcolcon.colcon_core.package_selection[0m [1;30mWARNING[0m [33mignoring unknown package 'wjoystick_sub' in --packages-select[0m
+[12.157s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'joystick_pub' in 'src/joystick_pub'
+[12.157s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'joystick_sub' in 'src/joystick_sub'
+[12.157s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'witmotion_ros' in 'src/witmotion_ros'
+[12.515s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[12.515s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[12.878s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/aiclub/Desktop/TEL_Robot/install[0m
+[13.065s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 279 installed packages in /opt/ros/foxy[0m
+[13.072s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[13.812s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[13.994s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[13.995s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[13.996s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[13.997s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[13.997s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[14.227s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.228s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.228s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[14.311s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[14.509s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[14.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/aiclub/Desktop/TEL_Robot/install/local_setup.ps1'
+[14.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/aiclub/Desktop/TEL_Robot/install/_local_setup_util_ps1.py'
+[14.525s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/aiclub/Desktop/TEL_Robot/install/setup.ps1'
+[14.733s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/aiclub/Desktop/TEL_Robot/install/local_setup.sh'
+[14.738s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/aiclub/Desktop/TEL_Robot/install/_local_setup_util_sh.py'
+[14.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/aiclub/Desktop/TEL_Robot/install/setup.sh'
+[14.929s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/aiclub/Desktop/TEL_Robot/install/local_setup.bash'
+[14.933s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/aiclub/Desktop/TEL_Robot/install/setup.bash'
+[15.123s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/aiclub/Desktop/TEL_Robot/install/local_setup.zsh'
+[15.126s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/aiclub/Desktop/TEL_Robot/install/setup.zsh'

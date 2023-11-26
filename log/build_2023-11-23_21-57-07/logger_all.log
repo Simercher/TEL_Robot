@@ -1,0 +1,149 @@
+[11.925s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'joystick_sub', 'joystick_sub'][0m
+[11.926s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa6be07f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['joystick_sub', 'joystick_sub'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa6be07f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa6bd8df0>)[0m
+[12.412s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[12.412s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[12.412s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[12.413s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[12.413s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[12.413s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[12.413s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/aiclub/Desktop/TEL_Robot'
+[12.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[12.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[12.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[12.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[12.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[12.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[12.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[12.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[12.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[12.475s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[12.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[12.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[12.476s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[12.477s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[12.477s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[12.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[12.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[12.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[12.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[12.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[12.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[12.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[12.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[12.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[12.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[12.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[12.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[12.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[12.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[12.483s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[12.484s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[12.484s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[12.484s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[12.484s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[12.485s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[12.485s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[12.485s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[12.485s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extensions ['ignore', 'ignore_ament_install']
+[12.486s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extension 'ignore'
+[12.486s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extension 'ignore_ament_install'
+[12.486s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extensions ['colcon_pkg']
+[12.486s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extension 'colcon_pkg'
+[12.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extensions ['colcon_meta']
+[12.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extension 'colcon_meta'
+[12.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extensions ['ros']
+[12.487s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_pub) by extension 'ros'
+[12.503s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/joystick_pub' with type 'ros.ament_python' and name 'joystick_pub'[0m
+[12.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extensions ['ignore', 'ignore_ament_install']
+[12.504s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extension 'ignore'
+[12.505s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extension 'ignore_ament_install'
+[12.505s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extensions ['colcon_pkg']
+[12.505s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extension 'colcon_pkg'
+[12.505s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extensions ['colcon_meta']
+[12.505s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extension 'colcon_meta'
+[12.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extensions ['ros']
+[12.506s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/joystick_sub) by extension 'ros'
+[12.508s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/joystick_sub' with type 'ros.ament_python' and name 'joystick_sub'[0m
+[12.509s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extensions ['ignore', 'ignore_ament_install']
+[12.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extension 'ignore'
+[12.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extension 'ignore_ament_install'
+[12.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extensions ['colcon_pkg']
+[12.510s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extension 'colcon_pkg'
+[12.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extensions ['colcon_meta']
+[12.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extension 'colcon_meta'
+[12.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extensions ['ros']
+[12.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/witmotion_ros) by extension 'ros'
+[12.513s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/witmotion_ros' with type 'ros.ament_cmake' and name 'witmotion_ros'[0m
+[12.514s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[12.514s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[12.514s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[12.514s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[12.515s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[13.176s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'joystick_pub' in 'src/joystick_pub'
+[13.176s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'witmotion_ros' in 'src/witmotion_ros'
+[13.551s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[13.551s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[13.989s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/aiclub/Desktop/TEL_Robot/install[0m
+[14.195s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 279 installed packages in /opt/ros/foxy[0m
+[14.203s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[14.966s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_sub' build argument 'cmake_args' from command line to 'None'
+[14.966s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_sub' build argument 'cmake_target' from command line to 'None'
+[14.966s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.966s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[14.967s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_sub' build argument 'cmake_clean_first' from command line to 'False'
+[14.967s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_sub' build argument 'cmake_force_configure' from command line to 'False'
+[14.967s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_sub' build argument 'ament_cmake_args' from command line to 'None'
+[14.967s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[14.967s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.968s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'joystick_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub', 'merge_install': False, 'path': '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub', 'symlink_install': False, 'test_result_base': None}[0m
+[15.160s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[15.359s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[15.360s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub' with build type 'ament_python'
+[15.361s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('joystick_sub', 'ament_prefix_path')
+[15.578s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[15.579s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/hook/ament_prefix_path.ps1'
+[15.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/hook/ament_prefix_path.dsv'
+[15.588s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/hook/ament_prefix_path.sh'
+[15.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.821s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[18.061s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub'
+[18.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.923s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[21.799s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_sub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log --single-version-externally-managed[0m
+[25.610s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub' returned '0': PYTHONPATH=/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_sub build --build-base /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build install --record /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log --single-version-externally-managed[0m
+[25.849s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub' for CMake module files
+[25.851s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub' for CMake config files
+[25.856s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib'
+[25.857s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/bin'
+[25.857s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/pkgconfig/joystick_sub.pc'
+[25.858s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages'
+[25.859s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('joystick_sub', 'pythonpath')
+[26.101s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/hook/pythonpath.ps1'
+[26.104s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/hook/pythonpath.dsv'
+[26.107s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/hook/pythonpath.sh'
+[26.110s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/bin'
+[26.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(joystick_sub)
+[26.329s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/package.ps1'
+[26.335s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/package.dsv'
+[26.343s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/package.sh'
+[26.347s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/package.bash'
+[26.352s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/joystick_sub/package.zsh'
+[26.355s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/share/colcon-core/packages/joystick_sub)
+[26.358s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[26.360s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[26.361s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[26.361s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[26.608s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.608s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.609s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[26.702s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[26.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/aiclub/Desktop/TEL_Robot/install/local_setup.ps1'
+[26.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/aiclub/Desktop/TEL_Robot/install/_local_setup_util_ps1.py'
+[26.933s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/aiclub/Desktop/TEL_Robot/install/setup.ps1'
+[27.178s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/aiclub/Desktop/TEL_Robot/install/local_setup.sh'
+[27.183s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/aiclub/Desktop/TEL_Robot/install/_local_setup_util_sh.py'
+[27.186s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/aiclub/Desktop/TEL_Robot/install/setup.sh'
+[27.391s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/aiclub/Desktop/TEL_Robot/install/local_setup.bash'
+[27.398s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/aiclub/Desktop/TEL_Robot/install/setup.bash'
+[27.649s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/aiclub/Desktop/TEL_Robot/install/local_setup.zsh'
+[27.653s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/aiclub/Desktop/TEL_Robot/install/setup.zsh'

@@ -1,0 +1,5 @@
+  File "/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub/gyrosensor.py", line 17
+    timer_period = 0..01  # seconds
+                     ^
+SyntaxError: invalid syntax
+

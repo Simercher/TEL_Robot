@@ -1,3 +1,4 @@
 [console_scripts]
+gyrosensor = joystick_sub.gyrosensor:main
 joystick_sub = joystick_sub.joystick_sub:main
 

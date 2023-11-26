@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000962] (-) JobUnselected: {'identifier': 'joystick_pub'}
+[0.001133] (-) JobUnselected: {'identifier': 'witmotion_ros'}
+[0.001300] (joystick_sub) JobQueued: {'identifier': 'joystick_sub', 'dependencies': OrderedDict()}
+[0.001465] (joystick_sub) JobStarted: {'identifier': 'joystick_sub'}
+[0.099286] (-) TimerEvent: {}
+[0.201136] (-) TimerEvent: {}
+[0.302037] (-) TimerEvent: {}
+[0.405371] (-) TimerEvent: {}
+[0.506391] (-) TimerEvent: {}
+[0.609366] (-) TimerEvent: {}
+[0.710433] (-) TimerEvent: {}
+[0.815318] (-) TimerEvent: {}
+[0.917273] (-) TimerEvent: {}
+[1.025495] (-) TimerEvent: {}
+[1.128185] (-) TimerEvent: {}
+[1.230582] (-) TimerEvent: {}
+[1.331426] (-) TimerEvent: {}
+[1.432252] (-) TimerEvent: {}
+[1.533095] (-) TimerEvent: {}
+[1.634079] (-) TimerEvent: {}
+[1.734988] (-) TimerEvent: {}
+[1.835784] (-) TimerEvent: {}
+[1.936702] (-) TimerEvent: {}
+[2.037599] (-) TimerEvent: {}
+[2.138716] (-) TimerEvent: {}
+[2.239509] (-) TimerEvent: {}
+[2.340387] (-) TimerEvent: {}
+[2.441159] (-) TimerEvent: {}
+[2.546408] (-) TimerEvent: {}
+[2.648174] (-) TimerEvent: {}
+[2.751251] (-) TimerEvent: {}
+[2.852699] (-) TimerEvent: {}
+[2.955728] (-) TimerEvent: {}
+[3.057660] (-) TimerEvent: {}
+[3.159590] (-) TimerEvent: {}
+[3.262208] (-) TimerEvent: {}
+[3.364748] (-) TimerEvent: {}
+[3.465980] (-) TimerEvent: {}
+[3.570591] (-) TimerEvent: {}
+[3.672381] (-) TimerEvent: {}
+[3.773264] (-) TimerEvent: {}
+[3.874185] (-) TimerEvent: {}
+[3.975099] (-) TimerEvent: {}
+[4.075979] (-) TimerEvent: {}
+[4.176908] (-) TimerEvent: {}
+[4.277769] (-) TimerEvent: {}
+[4.378806] (-) TimerEvent: {}
+[4.479670] (-) TimerEvent: {}
+[4.580502] (-) TimerEvent: {}
+[4.681412] (-) TimerEvent: {}
+[4.782289] (-) TimerEvent: {}
+[4.883278] (-) TimerEvent: {}
+[4.984312] (-) TimerEvent: {}
+[5.085127] (-) TimerEvent: {}
+[5.185963] (-) TimerEvent: {}
+[5.286854] (-) TimerEvent: {}
+[5.387664] (-) TimerEvent: {}
+[5.488535] (-) TimerEvent: {}
+[5.590238] (-) TimerEvent: {}
+[5.644692] (joystick_sub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/joystick_sub', 'build', '--build-base', '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build', 'install', '--record', '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log', '--single-version-externally-managed'], 'cwd': '/home/aiclub/Desktop/TEL_Robot/src/joystick_sub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aiclub', 'LC_TIME': 'lzh_TW', 'JETSON_CUDA': '11.4.239', 'SSH_AGENT_PID': '2895', 'XDG_SESSION_TYPE': 'x11', 'JETSON_CARRIER': 'P3509-0000', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda/lib64:', 'HOME': '/home/aiclub', 'OLDPWD': '/home/aiclub', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_TENSORRT': '8.4.1.5', 'JETSON_L4T': '35.1.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'LC_MONETARY': 'lzh_TW', 'MANAGERPID': '2601', 'JETSON_OPENCV_CUDA': 'YES', 'JETSON_VISIONWORKS': 'NOT_INSTALLED', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/aiclub/Desktop/TEL_Robot/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aiclub', 'JETSON_MODULE': 'P3668-0000', 'JETSON_SERIAL_NUMBER': '1420821062483', 'JETSON_CUDNN': '8.4.1.50', 'JOURNAL_STREAM': '7:48923', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aiclub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/aiclub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/aiclub-desktop:@/tmp/.ICE-unix/2930,unix/aiclub-desktop:/tmp/.ICE-unix/2930', 'INVOCATION_ID': '25022e3f842740d9b3a3c87bdc0de318', 'CUDA_ROOT': '/usr/local/cuda', 'JETSON_OPENCV': '4.6.0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7638e00c_dd4a_4bf3_b0ee_b9b4017d3362', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW', 'JETSON_L4T_REVISION': '1.0', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'GNOME_TERMINAL_SERVICE': ':1.78', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '', 'LC_MEASUREMENT': 'lzh_TW', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'lzh_TW', 'JETSON_L4T_RELEASE': '35', 'JETSON_VULKAN_INFO': '1.3.203', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'JETSON_VPI': '2.1.6', 'PYTHONPATH': '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/prefix_override:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages:/home/aiclub/Desktop/TEL_Robot/install/joystick_pub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.0.2 GA'}, 'shell': False}
+[5.690774] (-) TimerEvent: {}
+[5.792508] (-) TimerEvent: {}
+[5.893289] (-) TimerEvent: {}
+[5.994286] (-) TimerEvent: {}
+[6.095267] (-) TimerEvent: {}
+[6.196246] (-) TimerEvent: {}
+[6.297127] (-) TimerEvent: {}
+[6.398041] (-) TimerEvent: {}
+[6.499107] (-) TimerEvent: {}
+[6.599958] (-) TimerEvent: {}
+[6.700806] (-) TimerEvent: {}
+[6.801757] (-) TimerEvent: {}
+[6.902805] (-) TimerEvent: {}
+[7.003917] (-) TimerEvent: {}
+[7.081087] (joystick_sub) StdoutLine: {'line': b'running egg_info\n'}
+[7.104123] (-) TimerEvent: {}
+[7.122864] (joystick_sub) StdoutLine: {'line': b"writing manifest file '../../build/joystick_sub/joystick_sub.egg-info/SOURCES.txt'\n"}
+[7.124383] (joystick_sub) StdoutLine: {'line': b'running build\n'}
+[7.125096] (joystick_sub) StdoutLine: {'line': b'running build_py\n'}
+[7.125472] (joystick_sub) StdoutLine: {'line': b'copying joystick_sub/joystick_sub.py -> /home/aiclub/Desktop/TEL_Robot/build/joystick_sub/build/lib/joystick_sub\n'}
+[7.127291] (joystick_sub) StdoutLine: {'line': b'running install\n'}
+[7.131172] (joystick_sub) StdoutLine: {'line': b'running install_lib\n'}
+[7.137473] (joystick_sub) StdoutLine: {'line': b'byte-compiling /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub/joystick_sub.py to joystick_sub.cpython-38.pyc\n'}
+[7.146787] (joystick_sub) StdoutLine: {'line': b'running install_data\n'}
+[7.149430] (joystick_sub) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.156448] (joystick_sub) StdoutLine: {'line': b"removing '/home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.158232] (joystick_sub) StdoutLine: {'line': b'Copying ../../build/joystick_sub/joystick_sub.egg-info to /home/aiclub/Desktop/TEL_Robot/install/joystick_sub/lib/python3.8/site-packages/joystick_sub-0.0.0-py3.8.egg-info\n'}
+[7.164718] (joystick_sub) StdoutLine: {'line': b'running install_scripts\n'}
+[7.204417] (-) TimerEvent: {}
+[7.258281] (joystick_sub) StdoutLine: {'line': b"writing list of installed files to '/home/aiclub/Desktop/TEL_Robot/build/joystick_sub/install.log'\n"}
+[7.304725] (-) TimerEvent: {}
+[7.359587] (joystick_sub) CommandEnded: {'returncode': 0}
+[7.404923] (-) TimerEvent: {}
+[7.507498] (-) TimerEvent: {}
+[7.610486] (-) TimerEvent: {}
+[7.711452] (-) TimerEvent: {}
+[7.814694] (-) TimerEvent: {}
+[7.917664] (-) TimerEvent: {}
+[8.019623] (-) TimerEvent: {}
+[8.071648] (joystick_sub) JobEnded: {'identifier': 'joystick_sub', 'rc': 0}
+[8.077339] (-) EventReactorShutdown: {}
